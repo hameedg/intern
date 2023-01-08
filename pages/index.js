@@ -36,7 +36,7 @@ const index = () => {
       </div>
       <div className="overflow-hidden bg-[#0c0c0c] text-[#fff]">
         <div className="flex pt-[3.785rem] pb-[2.5rem] flex-col items-center text-center">
-          <div className="text-[#fff] text-[1.5rem] leading-[1.33] font-clash">
+          <div className="text-[#fff] text-[1.5rem] leading-[1.33] font-clash font-[500]">
             Get your dream internship
           </div>
           <div className="flex w-[100%] mt-[1.75rem] items-center flex-row">
@@ -94,7 +94,7 @@ const index = () => {
         <div className="page-padding">
           <div className="max-w-[72.5rem] mx-auto">
             <div className="md:gap-y-[2rem] py-[4.3rem] flex justify-center items-center md:pt-[6.7rem] md:flex-col lg:pt-[5.8rem] lg:pb-[3rem] ">
-              <div className="ml-[50px] max-w-[500px] font-clash leading-[59.04px]  mb-0 flex-shrink-0 flex-grow-0 basis-auto z-[1] flex flex-col items-start lg:static lg:pb-[2.2rem] md:w-auto md:max-w-[none] md:text-center md:items-center">
+              <div className="gl:ml-[50px] max-w-[500px] font-clash leading-[59.04px]  mb-0 flex-shrink-0 flex-grow-0 basis-auto z-[1] flex flex-col items-start lg:static lg:pb-[2.2rem] md:w-auto md:max-w-[none] md:text-center md:items-center">
                 <p className="text-[1rem] mb-8 leading-[1.7] font-inter tracking-[-0.015em]">
                   There are things that are never taught by colleges and
                   universities. It only comes with experience. Work Experience
@@ -124,15 +124,15 @@ const index = () => {
           <div className="section1-container">
             <div className="pt-0 px-0 pb-[6rem]"></div>
             <div className="md:grid-cols-[1fr] grid auto-cols-[1fr] gap-x-[2rem] gap-y-[2rem] grid-cols-[1fr_1fr] grid-rows-[auto]">
-              <div className="ml-[50px] col-start-[span_1] col-end-[span_1] row-start-[span_1] row-end-[span_1] flex items-center max-w-[500px]">
-                <h2 className="font-clash font-[600] text-[32px] leading-[39px]">
+              <div className="gl:ml-[50px] col-start-[span_1] col-end-[span_1] row-start-[span_1] row-end-[span_1] flex items-center max-w-[500px]">
+                <h2 className="font-clash font-[600] text-[2rem] leading-[39px]">
                   Are any of these challenges familier to you.?{" "}
                 </h2>
                 <div className="pt-0 px-0 pb-[2rem]"></div>
 
                 <div className="pt-0 px-0 pb-[2rem]"></div>
               </div>
-              <div className="max-w-[550px] opacity-[1] col-start-[span_1] col-end-[span_1] row-start-[span_1] row-end-[span_1] p-[1.5rem] rounded-[1rem] bg-[#fff]">
+              <div className="max-w-[550px] opacity-[1] sm:list-disc col-start-[span_1] col-end-[span_1] row-start-[span_1] row-end-[span_1] p-[1.5rem] rounded-[1rem] bg-[#fff]">
                 <Point name={"No work experience?"} />
                 <Point name={"Not getting shortlisted for job interview?"} />
                 <Point name={"Unable to find the role you are looking for?"} />

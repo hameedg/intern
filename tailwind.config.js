@@ -6,8 +6,6 @@ module.exports = {
   ],
   theme: {
     screens: {
-      "2xl": { max: "1535px" },
-
       xl: { max: "1023px" },
 
       lg: { max: "991px" },
@@ -15,7 +13,10 @@ module.exports = {
       md: { max: "767px" },
 
       sm: { max: "479px" },
-      ms: { min: "767px" },
+      ms: { min: "476px" },
+      dm: { min: "767px" },
+      gl: { min: "991px" },
+      lx: { min: "1023px" },
     },
     fontFamily: {
       inter: ["Inter", "sans-serif"],
