@@ -2,18 +2,19 @@ import Navbar from "../components/Navbar";
 import Point from "../components/Point";
 import Footer from "../components/Footer";
 import StepCard from "../components/StepCard";
+import Home from "../components/Home";
 
 const index = () => {
   return (
     <>
       <Navbar />
-      <div className="bg-[#1b1b1b] text-[#fff] min-h-[100vh] flex justify-center items-center">
-        <div className="page-padding">
+      <div className="bg-[#1b1b1b] text-[#fff]">
+        {/* <div className="page-padding">
           <div className="max-w-[72.5rem] mx-auto">
             <div className=" md:gap-y-[2rem] py-[4.3rem] flex justify-center items-center md:pt-[6.7rem] md:flex-col lg:pt-[5.8rem] lg:pb-[3rem] ">
               <div className="ml-[50px] mt-[100px] max-w-[550px] leading-[59.04px]  mb-0 flex-shrink-0 flex-grow-0 basis-auto z-[1] flex flex-col items-start lg:static lg:pb-[2.2rem] md:w-auto md:max-w-[none] md:text-center md:items-center">
                 <h1
-                  className={` text-[48px] font-clash  sm:text-[50px] mt-[50px] tracking-normal sm:tracking-[-0.025em] leading-[60px] font-[600] mb-8 sm-mid-tablet:text-3xl sm-mid-tablet:leading-snug`}
+                  className={`text-[48px] font-clash  sm:text-[50px] mt-[50px] tracking-normal sm:tracking-[-0.025em] leading-[60px] font-[600] mb-8 sm-mid-tablet:text-3xl sm-mid-tablet:leading-snug`}
                 >
                   Discover your dream career with work experience
                 </h1>
@@ -30,6 +31,62 @@ const index = () => {
               </div>
             </div>
           </div>
+        </div> */}
+        <Home />
+      </div>
+      <div className="overflow-hidden bg-[#0c0c0c] text-[#fff]">
+        <div className="flex pt-[3.785rem] pb-[2.5rem] flex-col items-center text-center">
+          <div className="text-[#fff] text-[1.5rem] leading-[1.33] font-clash">
+            Get your dream internship
+          </div>
+          <div className="flex w-[100%] mt-[1.75rem] items-center flex-row">
+            <div className="animate-[marquee_40s_linear_infinite] flex items-center">
+              <img
+                className="relative mr-[3rem] flex-grow-0 flex-shrink-0 basis-auto opacity-[0.4] h-[3rem]"
+                src="https://global-uploads.webflow.com/632462c7dd8a9705db7948c2/633b4ce0065bd70d4d4c7589_airbnb.svg"
+              ></img>
+              <img
+                className="relative mr-[3rem] flex-grow-0 flex-shrink-0 basis-auto opacity-[0.4] h-[3rem]"
+                src="https://global-uploads.webflow.com/632462c7dd8a9705db7948c2/633b4ca7f704a3823a2d86fc_netflix.svg"
+              ></img>{" "}
+              <img
+                className="relative mr-[3rem] flex-grow-0 flex-shrink-0 basis-auto opacity-[0.4] h-[3rem]"
+                src="https://global-uploads.webflow.com/632462c7dd8a9705db7948c2/633b4c863f6855096fb71819_meta.svg"
+              ></img>{" "}
+              <img
+                className="relative mr-[3rem] flex-grow-0 flex-shrink-0 basis-auto opacity-[0.4] h-[3rem]"
+                src="https://global-uploads.webflow.com/632462c7dd8a9705db7948c2/633b4cd668f6c35385fda40b_spotify.svg"
+              ></img>{" "}
+              <img
+                className="relative mr-[3rem] flex-grow-0 flex-shrink-0 basis-auto opacity-[0.4] h-[3rem]"
+                src="https://global-uploads.webflow.com/632462c7dd8a9705db7948c2/633b4ccb639fb5b7da395f93_amazon.svg"
+              ></img>{" "}
+              <img
+                className="relative mr-[3rem] flex-grow-0 flex-shrink-0 basis-auto opacity-[0.4] h-[3rem]"
+                src="https://global-uploads.webflow.com/632462c7dd8a9705db7948c2/633b4cc2e3351f353bbe4c14_oracle.svg"
+              ></img>{" "}
+              <img
+                className="relative mr-[3rem] flex-grow-0 flex-shrink-0 basis-auto opacity-[0.4] h-[3rem]"
+                src="https://global-uploads.webflow.com/632462c7dd8a9705db7948c2/633b4cbbdd6a138a4bca22cb_microsoft.svg"
+              ></img>{" "}
+              <img
+                className="relative mr-[3rem] flex-grow-0 flex-shrink-0 basis-auto opacity-[0.4] h-[3rem]"
+                src="https://global-uploads.webflow.com/632462c7dd8a9705db7948c2/633b4cb183f8c0be558447e5_google.svg"
+              ></img>{" "}
+              <img
+                className="relative mr-[3rem] flex-grow-0 flex-shrink-0 basis-auto opacity-[0.4] h-[3rem]"
+                src="https://global-uploads.webflow.com/632462c7dd8a9705db7948c2/633b4c9b9e4d531eedbcc004_cisco.svg"
+              ></img>{" "}
+              <img
+                className="relative mr-[3rem] flex-grow-0 flex-shrink-0 basis-auto opacity-[0.4] h-[3rem]"
+                src="https://global-uploads.webflow.com/632462c7dd8a9705db7948c2/633b4c903722a10a912590f3_linkedin.svg"
+              ></img>{" "}
+              <img
+                className="relative mr-[3rem] flex-grow-0 flex-shrink-0 basis-auto opacity-[0.4] h-[3rem]"
+                src="https://global-uploads.webflow.com/632462c7dd8a9705db7948c2/633b4c7d65dbb898805009ac_uber.svg"
+              ></img>{" "}
+            </div>
+          </div>
         </div>
       </div>
 
@@ -37,7 +94,7 @@ const index = () => {
         <div className="page-padding">
           <div className="max-w-[72.5rem] mx-auto">
             <div className="md:gap-y-[2rem] py-[4.3rem] flex justify-center items-center md:pt-[6.7rem] md:flex-col lg:pt-[5.8rem] lg:pb-[3rem] ">
-              <div className="ml-[50px] max-w-[550px] font-clash leading-[59.04px]  mb-0 flex-shrink-0 flex-grow-0 basis-auto z-[1] flex flex-col items-start lg:static lg:pb-[2.2rem] md:w-auto md:max-w-[none] md:text-center md:items-center">
+              <div className="ml-[50px] max-w-[500px] font-clash leading-[59.04px]  mb-0 flex-shrink-0 flex-grow-0 basis-auto z-[1] flex flex-col items-start lg:static lg:pb-[2.2rem] md:w-auto md:max-w-[none] md:text-center md:items-center">
                 <p className="text-[1rem] mb-8 leading-[1.7] font-inter tracking-[-0.015em]">
                   There are things that are never taught by colleges and
                   universities. It only comes with experience. Work Experience
@@ -75,7 +132,7 @@ const index = () => {
 
                 <div className="pt-0 px-0 pb-[2rem]"></div>
               </div>
-              <div className="max-w-[540px] opacity-[1] col-start-[span_1] col-end-[span_1] row-start-[span_1] row-end-[span_1] p-[1.5rem] rounded-[1rem] bg-[#fff]">
+              <div className="max-w-[550px] opacity-[1] col-start-[span_1] col-end-[span_1] row-start-[span_1] row-end-[span_1] p-[1.5rem] rounded-[1rem] bg-[#fff]">
                 <Point name={"No work experience?"} />
                 <Point name={"Not getting shortlisted for job interview?"} />
                 <Point name={"Unable to find the role you are looking for?"} />
