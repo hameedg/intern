@@ -14,7 +14,7 @@ const index = () => {
             <div className=" md:gap-y-[2rem] py-[4.3rem] flex justify-center items-center md:pt-[6.7rem] md:flex-col lg:pt-[5.8rem] lg:pb-[3rem] ">
               <div className="ml-[50px] mt-[100px] max-w-[550px] leading-[59.04px]  mb-0 flex-shrink-0 flex-grow-0 basis-auto z-[1] flex flex-col items-start lg:static lg:pb-[2.2rem] md:w-auto md:max-w-[none] md:text-center md:items-center">
                 <h1
-                  className={`text-[48px] font-clash  sm:text-[50px] mt-[50px] tracking-normal sm:tracking-[-0.025em] leading-[60px] font-[600] mb-8 sm-mid-tablet:text-3xl sm-mid-tablet:leading-snug`}
+                  className={`text-[48px] font-['ClashDisplay-Variable']  sm:text-[50px] mt-[50px] tracking-normal sm:tracking-[-0.025em] leading-[60px] font-[600] mb-8 sm-mid-tablet:text-3xl sm-mid-tablet:leading-snug`}
                 >
                   Discover your dream career with work experience
                 </h1>
@@ -36,7 +36,7 @@ const index = () => {
       </div>
       <div className="overflow-hidden bg-[#0c0c0c] text-[#fff]">
         <div className="flex pt-[3.785rem] pb-[2.5rem] flex-col items-center text-center">
-          <div className="text-[#fff] text-[1.5rem] leading-[1.33] font-clash font-[500]">
+          <div className="text-[#fff] text-[1.5rem] leading-[1.33] font-['ClashDisplay-Variable'] font-[500]">
             Get your dream internship
           </div>
           <div className="flex w-[100%] mt-[1.75rem] items-center flex-row">
@@ -94,7 +94,7 @@ const index = () => {
         <div className="page-padding">
           <div className="max-w-[72.5rem] mx-auto">
             <div className="md:gap-y-[2rem] py-[4.3rem] flex justify-center items-center md:pt-[6.7rem] md:flex-col lg:pt-[5.8rem] lg:pb-[3rem] ">
-              <div className="gl:ml-[50px] max-w-[500px] font-clash leading-[59.04px]  mb-0 flex-shrink-0 flex-grow-0 basis-auto z-[1] flex flex-col items-start lg:static lg:pb-[2.2rem] md:w-auto md:max-w-[none] md:text-center md:items-center">
+              <div className="gl:ml-[50px] max-w-[500px] font-['ClashDisplay-Variable'] leading-[59.04px]  mb-0 flex-shrink-0 flex-grow-0 basis-auto z-[1] flex flex-col items-start lg:static lg:pb-[2.2rem] md:w-auto md:max-w-[none] md:text-center md:items-center">
                 <p className="text-[1rem] mb-8 leading-[1.7] font-inter tracking-[-0.015em]">
                   There are things that are never taught by colleges and
                   universities. It only comes with experience. Work Experience
@@ -125,7 +125,7 @@ const index = () => {
             <div className="pt-0 px-0 pb-[6rem]"></div>
             <div className="md:grid-cols-[1fr] grid auto-cols-[1fr] gap-x-[2rem] gap-y-[2rem] grid-cols-[1fr_1fr] grid-rows-[auto]">
               <div className="gl:ml-[50px] col-start-[span_1] col-end-[span_1] row-start-[span_1] row-end-[span_1] flex items-center max-w-[500px]">
-                <h2 className="font-clash font-[600] text-[2rem] leading-[39px]">
+                <h2 className="font-['ClashDisplay-Variable'] font-[600] text-[2rem] leading-[39px]">
                   Are any of these challenges familier to you.?{" "}
                 </h2>
                 <div className="pt-0 px-0 pb-[2rem]"></div>
@@ -154,7 +154,7 @@ const index = () => {
       </div>
       <div className="max-w-[617px] mx-auto bg-white pb-12 mt-16 ma  ">
         <h3
-          className={`font-clash text-[1.875rem] sm-mid-tablet:leading-snug antialiased tracking-[0] text-center font-[550] mb-6`}
+          className={`font-['ClashDisplay-Variable'] text-[1.875rem] sm-mid-tablet:leading-snug antialiased tracking-[0] text-center font-[550] mb-6`}
         >
           A new way to get work experience
         </h3>
@@ -172,7 +172,7 @@ const index = () => {
             <div className="p-large"></div>
             <div className="text-center">
               <h3
-                className={`font-clash text-[#ffff] text-[30px] sm-mid-tablet:leading-snug antialiased tracking-[-1px] text-center font-bold mb-6`}
+                className={`font-['ClashDisplay-Variable'] text-[#ffff] text-[30px] sm-mid-tablet:leading-snug antialiased tracking-[-1px] text-center font-bold mb-6`}
               >
                 Steps to kick-start your
                 <br></br>
@@ -233,7 +233,7 @@ const index = () => {
       <div className="bg-[#fff] text-[#000]">
         <div className="pt-[5rem] pb-[5rem] relative flex w-[90%] max-w-[1160px] mx-auto justify-center items-center md:pt-[60px] md:pb-[120px] sm:w-[90%] lg:flex-col">
           <div className="relative z-[11] w-[100%] max-w-[914px] md:flex-col">
-            <h2 className="mb-[30px] font-clash font-[600] text-[32px] leading-[39px] flex justify-center text-center">
+            <h2 className="mb-[30px] font-['ClashDisplay-Variable'] font-[600] text-[32px] leading-[39px] flex justify-center text-center">
               Get work experience
               <br></br>
               Get hired
