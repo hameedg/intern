@@ -20,7 +20,7 @@ module.exports = {
     },
     fontFamily: {
       inter: ["Inter", "sans-serif"],
-      clash: ["Clash Display", "sans-serif"],
+
       archivo: ["Archivo", "sans-serif"],
     },
     extend: {
