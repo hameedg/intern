@@ -1,14 +1,14 @@
-const Cardy = () => {
+const Cards = () => {
   return (
     <>
       {/* sm:max-w-[512px] md:max-w-[770px] lg:max-w-[1024px] */}
-      <div className="container rounded-md max-w-container mt-[120px] p-0 mx-auto bg-white mb-8">
-        <div className="p-3.8 border border-border rounded-sm">
-          <p className="text-xsm uppercase font-medium mb-3.8 text-light">
+      <div className="container rounded-md max-w-[62.5rem] mt-[120px] p-0 mx-auto bg-white mb-8">
+        <div className="p-[0.9375rem] border rounded-sm">
+          <p className="text-[0.8125rem] uppercase font-medium mb-[0.9375rem]">
             new Job on canvas
           </p>
-          <div className="grid lg:grid-cols-3 gap-3.8 grid-rows-[auto] sm:grid-cols-1 md:grid-cols-2">
-            <div className="border p-3.8 group bg-white rounded-md hover:shadow-lg duration-150 ease-in cursor-pointer">
+          <div className="grid gl:grid-cols-3 gap-[0.9375rem] grid-rows-[auto] ms:grid-cols-1 dm:grid-cols-2">
+            <div className="border p-[0.9375rem] group bg-white rounded-md hover:shadow-lg duration-150 ease-in cursor-pointer">
               <button type="button" className="text-left w-full">
                 <div className="flex justify-between mb-2.5">
                   <img
@@ -82,7 +82,7 @@ const Cardy = () => {
                 </button>
               </div>
             </div>
-            <div className="border p-3.8 group bg-white rounded-md hover:shadow-lg duration-150 ease-in cursor-pointer">
+            <div className="border p-[0.9375rem] group bg-white rounded-md hover:shadow-lg duration-150 ease-in cursor-pointer">
               <button type="button" className="text-left w-full">
                 <div className="flex justify-between mb-2.5">
                   <img
@@ -156,7 +156,7 @@ const Cardy = () => {
                 </button>
               </div>
             </div>
-            <div className="border p-3.8 group bg-white rounded-md hover:shadow-lg duration-150 ease-in cursor-pointer">
+            <div className="border p-[0.9375rem] group bg-white rounded-md hover:shadow-lg duration-150 ease-in cursor-pointer">
               <button type="button" className="text-left w-full">
                 <div className="flex justify-between mb-2.5">
                   <img
@@ -230,7 +230,7 @@ const Cardy = () => {
                 </button>
               </div>
             </div>
-            <div className="border p-3.8 group bg-white rounded-md hover:shadow-lg duration-150 ease-in cursor-pointer">
+            <div className="border p-[0.9375rem] group bg-white rounded-md hover:shadow-lg duration-150 ease-in cursor-pointer">
               <button type="button" className="text-left w-full">
                 <div className="flex justify-between mb-2.5">
                   <img
@@ -310,4 +310,4 @@ const Cardy = () => {
   );
 };
 
-export default Cardy;
+export default Cards;
