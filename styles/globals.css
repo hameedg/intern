@@ -54,7 +54,7 @@
   @apply lg:relative lg:z-[1] py-[0.5rem] text-[0.875rem] leading-[1.063] flex px-[1rem] justify-center items-center ease-in font-inter text-[#000]  text-center rounded-[0.25rem] bg-[#fff] cursor-pointer hover:bg-[#0800a3] font-[400]
 }
 .section1{
-  @apply sm:bg-[30%_0%] bg-[url('https://global-uploads.webflow.com/632462c7dd8a9721c67948b1/6350f440b48f489431663328_bg-op-1.png')] bg-cover bg-no-repeat bg-[#1b1b1b]
+  @apply sm:bg-[30%_0%] bg-cover bg-no-repeat bg-[#1b1b1b]
 
 }
 .section1-wrapper{
@@ -134,7 +134,7 @@
  }
  .b-1{
   @apply lg:absolute lg:w-[100%] lg:h-[1px] lg:p-0 lg:bg-[#fff]  
- }
+ }center
  .navi-logo{
   @apply block w-[6.625rem] h-[1.5rem] mr-[1.425rem] ml-[0.4rem] max-w-[100%] md:mr-auto lg:relative z-[1] lg:mr-[1.1875rem] lg:ml-[0rem] 
  }
