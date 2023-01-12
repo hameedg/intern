@@ -16,8 +16,8 @@ const about = () => {
               <span className="text-[#7E8EF1]">intern.</span>
             </div>
             <div className="mt-[19px] w-[660px] h-[56px] font-inter font-[400] text-[1.125rem] leading-[2rem] text-center tracking-[-0.01em] text-[#fff]">
-              We re building a new path for students to gain work experience by
-              completing virtual internships and ship meaningful products for
+              We&#39;re building a new path for students to gain work experience
+              by completing virtual internships and ship meaningful products for
               startups of tomorrow.
             </div>
           </div>
