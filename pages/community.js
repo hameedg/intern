@@ -24,7 +24,7 @@ const community = () => {
             There is immense power when a group of people with similar interests
             get together to work towards the same goals.
           </div>
-          <div className="mt-[16px] font-inter font-[400] text-[1.125rem] leading-[2rem] tracking-[-0.01em] w-[650px] h-[88px]">
+          <div className="font-inter font-[400] text-[1.125rem] leading-[2rem] tracking-[-0.01em] w-[650px] h-[88px]">
             Imagine having a community of like-minded aspiring talented
             individuals from all over the world who are in this with you—where
             you can grow as an individual, learn new skills and advance your

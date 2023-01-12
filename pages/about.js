@@ -84,7 +84,7 @@ work experience "
                       collaborate to build the next big thing
                     </div>
                   </div>
-                  <div className="flex justify-center items-center font-inter font-[400] text-[18px] leading-[22px] tracking-[-0.01em]">
+                  <div className="flex justify-center items-center font-inter font-[400] text-[2rem] leading-[1.75rem] tracking-[-0.01em]">
                     We believe that talent is equally distributed but
                     opportunity is not and everyone is driven by an innate
                     desire to learn and grow. By equipping people with in-demand
