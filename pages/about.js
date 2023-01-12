@@ -10,7 +10,7 @@ const about = () => {
           <Navbar />
           {/* ------------------------------ */}
 
-          <div className="min-h-[100vh] bg-[#000] flex justify-center items-center flex-col">
+          <div className="min-h-[100vh] bg-[#1b1b1b] flex justify-center items-center flex-col">
             <div className="w-[474px] h-[161px] font-clash font-[600] text-[64px] leading-[79px] text-center text-[#fff] font-['ClashDisplay-Variable']">
               Dare to dream. Dare to{" "}
               <span className="text-[#7E8EF1]">intern.</span>
@@ -76,10 +76,10 @@ work experience "
               <div>
                 <div className="bg-[#fff] border gap-[30px] flex flex-row border-solid border-[#000] rounded-[25px] pl-[3rem] pr-[2rem] pt-[2.25rem] pb-[3.75rem]">
                   <div className="flex flex-col">
-                    <div className="text-[#ED5A5A] font-clash font-[700] text-[40px] leading-[49px]">
+                    <div className="text-[#ED5A5A] font-['ClashDispaly-Variable'] font-[700] text-[40px] leading-[49px]">
                       Proof of work
                     </div>
-                    <div className="mt-[20px] font-clash font-[500] text-[24px] leading-[30px] tracking-[0.02em] text-[#000]">
+                    <div className="mt-[20px] font-clash font-[500] text-[24px] font-['ClashDispaly-Variable'] leading-[30px] tracking-[0.02em] text-[#000]">
                       Transforming opportunity into results by making students
                       collaborate to build the next big thing
                     </div>
