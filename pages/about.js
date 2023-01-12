@@ -101,14 +101,14 @@ work experience "
           {/* ------------------------ */}
 
           <div className="bg-[#F5F5F5] flex flex-col px-[6.625rem] pt-[3.125rem] pb-[8.375rem]">
-            <div className="w-[1027px] font-['ClashDisplay-Variable'] h-[188px] ml-[106px] fonr-clash font-[700] text-[180px] leading-[221px] text-[#DFDFE4]">
+            <div className="w-[1027px] font-['ClashDisplay-Variable'] h-[188px] ml-[50px] fonr-clash font-[700] text-[180px] leading-[221px] text-[#DFDFE4]">
               Our vision
             </div>
-            <div className="mt-[34px] font-['ClashDisplay-Variable'] ml-[130px] w-[900px] h-[84px] font-[500] text-[30px] leading-[3rem] tracking-[0.02em] text-[#000]">
+            <div className="mt-[34px] font-['ClashDisplay-Variable'] ml-[50px] w-[900px] h-[84px] font-[500] text-[30px] leading-[3rem] tracking-[0.02em] text-[#000]">
               Developing a globally competitive talent pipeline by establishing
               new skill standards
             </div>
-            <div className="mt-[34px] ml-[130px] w-[784px] font-inter h-[150px] font-[400] text-[1.125rem] leading-[1.75rem] tracking-[-0.01em] text-[#000]">
+            <div className="mt-[34px] ml-[50px] w-[784px] font-inter h-[150px] font-[400] text-[1.125rem] leading-[1.75rem] tracking-[-0.01em] text-[#000]">
               We envision a future where anyone, anywhere, at anytime of their
               career is able to get today’s most in-demand skills and real-world
               experience they need to start their dream career without barriers
