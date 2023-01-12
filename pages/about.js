@@ -108,7 +108,7 @@ work experience "
               Developing a globally competitive talent pipeline by establishing
               new skill standards
             </div>
-            <div className="mt-[34px] ml-[130px] w-[784px] h-[150px] font-[400] text-[1.125rem] leading-[1.75rem] tracking-[-0.01em] text-[#000]">
+            <div className="mt-[34px] ml-[130px] w-[784px] font-inter h-[150px] font-[400] text-[1.125rem] leading-[1.75rem] tracking-[-0.01em] text-[#000]">
               We envision a future where anyone, anywhere, at anytime of their
               career is able to get today’s most in-demand skills and real-world
               experience they need to start their dream career without barriers
