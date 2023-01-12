@@ -5,7 +5,7 @@ const Card = (props) => {
     <>
       <div className="bg-[#fff] flex w-[100%] h-[100%] border border-solid border-[#000] rounded-[25px] pl-[3rem] pr-[2rem] pt-[2.25rem] pb-[3.75rem]">
         <div className="flex flex-col">
-          <div className="text-[#ED5A5A] font-clash font-[700] text-[40px] leading-[49px]  font-['ClashDisplay-Variable']">
+          <div className="text-[#dfdfe4] font-clash font-[700] text-[40px] leading-[49px]  font-['ClashDisplay-Variable']">
             {props.name}
           </div>
           <div className="mt-[20px] font-clash font-[500] text-[24px] leading-[30px] tracking-[0.02em] text-[#000]  font-['ClashDisplay-Variable']">

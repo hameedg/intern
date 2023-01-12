@@ -76,7 +76,7 @@ work experience "
               <div>
                 <div className="bg-[#fff] border gap-[30px] flex flex-row border-solid border-[#000] rounded-[25px] pl-[3rem] pr-[2rem] pt-[2.25rem] pb-[3.75rem]">
                   <div className="flex flex-col">
-                    <div className="text-[#ED5A5A] font-['ClashDisplay-Variable'] font-[700] text-[40px] leading-[49px]">
+                    <div className="text-[#dfdfe4] font-['ClashDisplay-Variable'] font-[700] text-[40px] leading-[49px]">
                       Proof of work
                     </div>
                     <div className="mt-[20px] font-clash font-[500] text-[24px] font-['ClashDisplay-Variable'] leading-[30px] tracking-[0.02em] text-[#000]">
@@ -108,7 +108,7 @@ work experience "
               Developing a globally competitive talent pipeline by establishing
               new skill standards
             </div>
-            <div className="mt-[34px] ml-[130px] w-[784px] h-[150px] font-[400] text-[18px] leading-[22px] tracking-[-0.01em] text-[#000]">
+            <div className="mt-[34px] ml-[130px] w-[784px] h-[150px] font-[400] text-[1.125rem] leading-[1.75rem] tracking-[-0.01em] text-[#000]">
               We envision a future where anyone, anywhere, at anytime of their
               career is able to get today’s most in-demand skills and real-world
               experience they need to start their dream career without barriers
