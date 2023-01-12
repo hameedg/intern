@@ -74,7 +74,7 @@ work experience "
                 </div>
               </div>
               <div>
-                <div className="bg-[#fff] border gap-[30px] flex flex-row border-solid border-[#000] rounded-[25px] pl-[3rem] pr-[2rem] pt-[2.25rem] pb-[2.25rem]">
+                <div className="bg-[#fff] border gap-[30px] flex flex-row border-solid border-[#000] rounded-[25px] pl-[3rem] pr-[2rem] pt-[2.75rem] pb-[2.75rem]">
                   <div className="flex flex-col">
                     <div className="text-[#dfdfe4] w-[320px] font-['ClashDisplay-Variable'] font-[700] text-[40px] leading-[49px]">
                       Proof of work
