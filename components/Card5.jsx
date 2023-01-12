@@ -1,6 +1,6 @@
 const Card5 = (props) => {
   return (
-    <div className="opacity-[1] col-start-[span_1] col-end-[span_1] row-start-[span_1] row-end-[span_1] sm:p-[16px] p-[24px] rounded-[6px] bg-[#fff] hover:shadow-md ">
+    <div className="opacity-[1] col-start-[span_1] col-end-[span_1] row-start-[span_1] row-end-[span_1] sm:p-[16px] p-[24px] rounded-[6px] bg-[#fff] shadow-[0_0_2px_rgba(0_0_0_/_20%)] hover:shadow-md ">
       <div className="w-[40px] h-[40px] rounded-0 overflow-hidden mb-[24px]">
         <img
           src={props.img}
