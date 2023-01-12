@@ -11,7 +11,7 @@ const about = () => {
           {/* ------------------------------ */}
 
           <div className="min-h-[100vh] bg-[#000] flex justify-center items-center flex-col">
-            <div className="w-[474px] h-[161px] font-clash font-[600] text-[64px] leading-[79px] text-center text-[#fff]">
+            <div className="w-[474px] h-[161px] font-clash font-[600] text-[64px] leading-[79px] text-center text-[#fff] font-['ClashDisplay-Variable']">
               Dare to dream. Dare to{" "}
               <span className="text-[#7E8EF1]">intern.</span>
             </div>
@@ -101,10 +101,10 @@ work experience "
           {/* ------------------------ */}
 
           <div className="bg-[#F5F5F5] flex flex-col px-[6.625rem] pt-[3.125rem] pb-[8.375rem]">
-            <div className="w-[1027px] h-[188px] ml-[106px] fonr-clash font-[700] text-[180px] leading-[221px] text-[#DFDFE4]">
+            <div className="w-[1027px] font-['ClashDisplay-Variable'] h-[188px] ml-[106px] fonr-clash font-[700] text-[180px] leading-[221px] text-[#DFDFE4]">
               Our vision
             </div>
-            <div className="mt-[34px] ml-[130px] w-[900px] h-[84px] font-[500] text-[30px] leading-[37px] tracking-[0.02em] text-[#000]">
+            <div className="mt-[34px] font-['ClashDisplay-Variable'] ml-[130px] w-[900px] h-[84px] font-[500] text-[30px] leading-[37px] tracking-[0.02em] text-[#000]">
               Developing a globally competitive talent pipeline by establishing
               new skill standards
             </div>

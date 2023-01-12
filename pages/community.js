@@ -7,7 +7,7 @@ const community = () => {
       <Navbar />
       <div className="flex flex-col">
         <div className="flex flex-col justify-center items-center min-h-[360px]">
-          <div className="font-clash h-[125px] w-[510px] font-[600] text-[48px] leading-[59.04px] text-center mt-[186px] ">
+          <div className=" font-['ClashDisplay-Variable'] h-[125px] w-[510px] font-[600] text-[48px] leading-[59.04px] text-center mt-[186px] ">
             Work in a fast-paced,
             <span className="text-[#7E8EF1]">global team</span>
           </div>
@@ -20,7 +20,7 @@ const community = () => {
           <Map />
         </div>
         <div className="mt-[142px] flex flex-col ml-[105px] mb-[106px]">
-          <div className="font-clash h-[156px] w-[748px] font-[500] text-[32px] leading-[39px]">
+          <div className="font-clash h-[156px] w-[748px] font-[500] text-[32px] leading-[39px]  font-['ClashDisplay-Variable']">
             There is immense power when a group of people with similar interests
             get together to work towards the same goals.
           </div>

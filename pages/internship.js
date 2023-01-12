@@ -2,11 +2,14 @@ import Navbar from "../components/Navbar";
 import NewCard from "../components/NewCard";
 import FAQ from "../components/FAQ";
 import Card3 from "../components/Card3";
+import Card4 from "../components/Card4";
+import Card5 from "../components/Card5";
+import Footer from "../components/Footer";
 
 const internship = () => {
   return (
     <>
-      <div className="bg-[#1b1b1b] ">
+      <div className="bg-[#1b1b1b] font-inter">
         <Navbar />
 
         {/* frontend development */}
@@ -69,9 +72,11 @@ const internship = () => {
                   </h3>
                 </div>
                 <div className="opacity-[1] col-start-[span_1] col-end-[span_1] row-start-[span_1] row-end-[span_1]  ">
-                  <div className="table col-start-1 row-start-1 col-end-2 row-end-2">
+                  <div className="table col-start-1 row-start-1 col-end-2 row-end-2 ">
                     <p>
-                      <strong>Outline</strong>
+                      <strong className="font-['ClashDisplay-Variable']">
+                        Outline
+                      </strong>
                     </p>
                     <p>
                       Entrepreneurship through acquisition allows individuals
@@ -83,7 +88,9 @@ const internship = () => {
                     </p>
                     <p>
                       <br></br>
-                      <strong>How The Model Works</strong>
+                      <strong className="font-['ClashDisplay-Variable']">
+                        How The Model Works
+                      </strong>
                     </p>
                     <p>
                       The entrepreneur or ‘Searcher’ raises a small fund from
@@ -126,6 +133,62 @@ const internship = () => {
           </div>
         </div>
         {/* -------- */}
+        <div className="bg-[#fff] text-[#000]">
+          <div className="pt-[94px] pb-[135px] relative flex w-[90%] max-w-[1160px] mx-auto justify-center items-center md:pt-[60px] md:pb-[120px] sm:w-[90%] lg:flex-col">
+            <div className="relative z-[11] w-[100%] md:flex-col">
+              <div className="font-['ClashDisplay-Variable'] mb-[30px] max-w-[800px] sm:text-[30px] mx-auto text-center md:text-[35px] lg:text-[38px] lg:leading-[100%] text-[40px] leading-[58px] tracking-[-0.04em] font-[700]">
+                Who is this learning curated for?
+              </div>
+              <div className="sm:grid-cols-[1fr] md:grid-cols-[1fr_1fr] mt-[64px] grid-rows-[auto] grid auto-cols-[1fr] gap-x-[1.8rem] gap-y-[3rem] grid-cols-[1fr_1fr_1fr] ">
+                <Card4 />
+                <Card4 />
+                <Card4 />
+                <Card4 />
+                <Card4 />
+                <Card4 />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* next */}
+        <div className="bg-[#fff] text-[#000]">
+          <div className="pt-[94px] pb-[135px] relative flex w-[90%] max-w-[1160px] mx-auto justify-center items-center md:pt-[60px] md:pb-[120px] sm:w-[90%] lg:flex-col">
+            <div className="relative z-[11] w-[100%] md:flex-col">
+              <div className="font-['ClashDisplay-Variable'] mb-[30px] max-w-[800px] sm:text-[30px] mx-auto text-center md:text-[35px] lg:text-[38px] lg:leading-[100%] text-[40px] leading-[58px] tracking-[-0.04em] font-[700]">
+                Choose a track that fits your career goals
+              </div>
+              <div className="sm:grid-cols-[1fr] md:grid-cols-[1fr_1fr] mt-[64px] grid-rows-[auto] grid auto-cols-[1fr] gap-x-[1.8rem] gap-y-[3rem] grid-cols-[1fr_1fr_1fr] ">
+                <Card5 />
+                <Card5 />
+                <Card5 />
+                <Card5 />
+                <Card5 />
+                <Card5 />
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* ------ */}
+        {/* next section  */}
+        <div className="bg-[#fff] text-[#000]">
+          <div className="pt-[94px] pb-[135px] relative flex w-[90%] max-w-[1160px] mx-auto justify-center items-center md:pt-[60px] md:pb-[120px] sm:w-[90%] lg:flex-col">
+            <div className="relative z-[11] w-[100%] md:flex-col">
+              <div className="font-['ClashDisplay-Variable'] mb-[30px] max-w-[800px] sm:text-[30px] mx-auto text-center md:text-[35px] lg:text-[38px] lg:leading-[100%] text-[40px] leading-[58px] tracking-[-0.04em] font-[700]">
+                Choose a track that fits your career goals
+              </div>
+              <div className="sm:grid-cols-[1fr] md:grid-cols-[1fr_1fr] mt-[64px] grid-rows-[auto] grid auto-cols-[1fr] gap-x-[1.8rem] gap-y-[3rem] grid-cols-[1fr_1fr_1fr] ">
+                <Card3 />
+                <Card3 />
+                <Card3 />
+                <Card3 />
+                <Card3 />
+                <Card3 />
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* ---------- */}
 
         {/* faq section */}
         <div className="bg-[#fff]">
@@ -146,26 +209,7 @@ const internship = () => {
           </div>
         </div>
         {/* --------------- */}
-
-        {/* next section  */}
-        <div className="bg-[#fff] text-[#000]">
-          <div className="pt-[94px] pb-[135px] relative flex w-[90%] max-w-[1160px] mx-auto justify-center items-center md:pt-[60px] md:pb-[120px] sm:w-[90%] lg:flex-col">
-            <div className="relative z-[11] w-[100%] md:flex-col">
-              <div className="font-['ClashDisplay-Variable'] mb-[30px] max-w-[800px] sm:text-[30px] mx-auto text-center md:text-[35px] lg:text-[38px] lg:leading-[100%] text-[40px] leading-[58px] tracking-[-0.04em] font-[700]">
-                Choose a track that fits your career goals
-              </div>
-              <div className="sm:grid-cols-[1fr] md:grid-cols-[1fr_1fr] mt-[64px] grid-rows-[auto] grid auto-cols-[1fr] gap-x-[1.8rem] gap-y-[3rem] grid-cols-[1fr_1fr_1fr] ">
-                <Card3 />
-                <Card3 />
-                <Card3 />
-                <Card3 />
-                <Card3 />
-                <Card3 />
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* ---------- */}
+        <Footer />
       </div>
     </>
   );
