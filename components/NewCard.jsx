@@ -6,11 +6,13 @@ const NewCard = (props) => {
           {props.no}
         </h4>
         <div className="padding"></div>
-        <h4 className="text-[#fff] font-[700] text-[1.5rem] tracking-[0.015625rem] leading-[1.33] font-['ClashDisplay-Variable']">
+        <h4 className="text-[#fff] font-[600] text-[1.5rem] tracking-[0.015625rem] leading-[1.33] font-['ClashDisplay-Variable']">
           {props.name}
         </h4>
         <div className="padding"></div>
-        <p className="text-[#fff]">{props.para}</p>
+        <p className="text-[#fff] text-[1rem] leading-[1.75rem]">
+          {props.para}
+        </p>
       </div>
     </div>
   );

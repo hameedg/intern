@@ -60,13 +60,13 @@ const internship = () => {
               <div className="px-0 pt-0 pb-[6rem]"></div>
               <div className="md:grid-cols-[1fr] md:gap-y-[1rem] grid grid-rows-[auto] auto-cols-[1fr] gap-x-[2.5rem] gap-y-[2rem] grid-cols-[1fr_1fr] ">
                 <div className="opacity-[1] col-start-[span_1] col-end-[span_1] row-start-[span_1] row-end-[span_1]  ">
-                  <h3 className="tag-line font-['ClashDisplay-Variable']">
+                  <h3 className="tag-line font-['ClashDisplay-Variable'] font-[600] w-[350px] ml-[100px] leading-[1.5]">
                     Selected intern s day-to-day responsibilities include:
                   </h3>
                 </div>
                 <div className="opacity-[1] col-start-[span_1] col-end-[span_1] row-start-[span_1] row-end-[span_1]  ">
                   <div className="table col-start-1 row-start-1 col-end-2 row-end-2 ">
-                    <ul className="list-disc">
+                    <ul className="list-disc text-[1rem] tracking-[-0.015em]">
                       <li className="leading-[1.75rem] text-[1.125rem]">
                         Building reusable components and front-end pages using
                         React/Next.js
