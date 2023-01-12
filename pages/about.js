@@ -15,7 +15,7 @@ const about = () => {
               Dare to dream. Dare to{" "}
               <span className="text-[#7E8EF1]">intern.</span>
             </div>
-            <div className="mt-[19px] w-[660px] h-[56px] font-inter font-[400] text-[2rem] leading-[1.75rem] text-center tracking-[-0.01em] text-[#fff]">
+            <div className="mt-[19px] w-[660px] h-[56px] font-inter font-[400] text-[1.125rem] leading-[1.75rem] text-center tracking-[-0.01em] text-[#fff]">
               We re building a new path for students to gain work experience by
               completing virtual internships and ship meaningful products for
               startups of tomorrow.
@@ -84,7 +84,7 @@ work experience "
                       collaborate to build the next big thing
                     </div>
                   </div>
-                  <div className="flex justify-center items-center font-inter font-[400] text-[2rem] leading-[1.75rem] tracking-[-0.01em]">
+                  <div className="flex justify-center items-center font-inter font-[400] text-[1.125rem] leading-[1.75rem] tracking-[-0.01em]">
                     We believe that talent is equally distributed but
                     opportunity is not and everyone is driven by an innate
                     desire to learn and grow. By equipping people with in-demand
