@@ -61,7 +61,7 @@ const internship = () => {
               <div className="md:grid-cols-[1fr] md:gap-y-[1rem] grid grid-rows-[auto] auto-cols-[1fr] gap-x-[2.5rem] gap-y-[2rem] grid-cols-[1fr_1fr] ">
                 <div className="opacity-[1] col-start-[span_1] col-end-[span_1] row-start-[span_1] row-end-[span_1]  ">
                   <h3 className="tag-line font-['ClashDisplay-Variable']">
-                    Selected intern's day-to-day responsibilities include:
+                    Selected intern s day-to-day responsibilities include:
                   </h3>
                 </div>
                 <div className="opacity-[1] col-start-[span_1] col-end-[span_1] row-start-[span_1] row-end-[span_1]  ">
