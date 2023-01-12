@@ -15,7 +15,7 @@ const about = () => {
               Dare to dream. Dare to{" "}
               <span className="text-[#7E8EF1]">intern.</span>
             </div>
-            <div className="mt-[19px] w-[660px] h-[56px] font-inter font-[400] text-[1.125rem] leading-[1.75rem] text-center tracking-[-0.01em] text-[#fff]">
+            <div className="mt-[19px] w-[660px] h-[56px] font-inter font-[400] text-[1.125rem] leading-[2rem] text-center tracking-[-0.01em] text-[#fff]">
               We re building a new path for students to gain work experience by
               completing virtual internships and ship meaningful products for
               startups of tomorrow.
@@ -76,15 +76,15 @@ work experience "
               <div>
                 <div className="bg-[#fff] border gap-[30px] flex flex-row border-solid border-[#000] rounded-[25px] pl-[3rem] pr-[2rem] pt-[2.25rem] pb-[3.75rem]">
                   <div className="flex flex-col">
-                    <div className="text-[#dfdfe4] font-['ClashDisplay-Variable'] font-[700] text-[40px] leading-[49px]">
+                    <div className="text-[#dfdfe4] w-[320px] font-['ClashDisplay-Variable'] font-[700] text-[40px] leading-[49px]">
                       Proof of work
                     </div>
-                    <div className="mt-[20px] font-clash font-[500] text-[24px] font-['ClashDisplay-Variable'] leading-[30px] tracking-[0.02em] text-[#000]">
+                    <div className="mt-[20px] font-clash font-[500] text-[24px] font-['ClashDisplay-Variable'] leading-[2.4rem] tracking-[0.02em] text-[#000]">
                       Transforming opportunity into results by making students
                       collaborate to build the next big thing
                     </div>
                   </div>
-                  <div className="flex justify-center items-center font-inter font-[400] text-[1.125rem] leading-[1.75rem] tracking-[-0.01em]">
+                  <div className="flex justify-center items-center font-inter font-[400] text-[1.125rem] leading-[2rem] tracking-[-0.01em]">
                     We believe that talent is equally distributed but
                     opportunity is not and everyone is driven by an innate
                     desire to learn and grow. By equipping people with in-demand
@@ -104,7 +104,7 @@ work experience "
             <div className="w-[1027px] font-['ClashDisplay-Variable'] h-[188px] ml-[106px] fonr-clash font-[700] text-[180px] leading-[221px] text-[#DFDFE4]">
               Our vision
             </div>
-            <div className="mt-[34px] font-['ClashDisplay-Variable'] ml-[130px] w-[900px] h-[84px] font-[500] text-[30px] leading-[37px] tracking-[0.02em] text-[#000]">
+            <div className="mt-[34px] font-['ClashDisplay-Variable'] ml-[130px] w-[900px] h-[84px] font-[500] text-[30px] leading-[3rem] tracking-[0.02em] text-[#000]">
               Developing a globally competitive talent pipeline by establishing
               new skill standards
             </div>
