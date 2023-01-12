@@ -165,12 +165,36 @@ const internship = () => {
                 Choose a track that fits your career goals
               </div>
               <div className="sm:grid-cols-[1fr] md:grid-cols-[1fr_1fr] mt-[64px] grid-rows-[auto] grid auto-cols-[1fr] gap-x-[1.8rem] gap-y-[3rem] grid-cols-[1fr_1fr_1fr] ">
-                <Card5 />
-                <Card5 />
-                <Card5 />
-                <Card5 />
-                <Card5 />
-                <Card5 />
+                <Card5
+                  img=""
+                  title="Live Sessions"
+                  text="You will experience interactive learning at its best. Our live masterclasses will help you engage and participate to learn more."
+                />
+                <Card5
+                  img=""
+                  title="Performance Learning"
+                  text="Reinforce your learnings after each masterclass by mentor designed hands-on projects and receive guidance on career success."
+                />
+                <Card5
+                  img=""
+                  title="Evaluation & Certificates"
+                  text="Get immediate feedback and ratings upon completion of your projects by our leading mentors and get awarded with certificates."
+                />
+                <Card5
+                  img=""
+                  title="Diverse Community"
+                  text="You can be a part of our community, as the masterclasses engage in mentor and peer learning creating diversity."
+                />
+                <Card5
+                  img=""
+                  title="Discover Your Dream Job"
+                  text="After project submission, you can kickstart your career by getting hired in world leading organizations."
+                />
+                <Card5
+                  img=""
+                  title="Mentor Based Learning"
+                  text="We offer 1 on 1 support from top mentors to help guide you towards a more successful career journey."
+                />
               </div>
             </div>
           </div>
@@ -184,12 +208,36 @@ const internship = () => {
                 Choose a track that fits your career goals
               </div>
               <div className="sm:grid-cols-[1fr] md:grid-cols-[1fr_1fr] mt-[64px] grid-rows-[auto] grid auto-cols-[1fr] gap-x-[1.8rem] gap-y-[3rem] grid-cols-[1fr_1fr_1fr] ">
-                <Card3 />
-                <Card3 />
-                <Card3 />
-                <Card3 />
-                <Card3 />
-                <Card3 />
+                <Card3
+                  img=""
+                  title="Interview Preparations"
+                  text="Improve your interview technique and resume with access to career resources."
+                />
+                <Card3
+                  img=""
+                  title="Guaranteed Interview"
+                  text="The top 10% will get a guaranteed interview for job opportunities  with industries leading employers."
+                />
+                <Card3
+                  img=""
+                  title="Certificate Achievement"
+                  text="Show employers that you have a clear understanding of the core concepts of data analysis."
+                />
+                <Card3
+                  img="https://ik.imagekit.io/internquest/Intern_Quest/62f931efb5d6721391dc2af7_emojis-completion02.png"
+                  title="Featured Jobs"
+                  text="Get on the fast track to in-demand jobs in growth hacking and more."
+                />
+                <Card3
+                  img="https://ik.imagekit.io/internquest/Intern_Quest/62f931efb5d672df37dc2af9_emojis-completion01.png"
+                  title="Exclusive Community Access"
+                  text="Access exclusive live sessions, panel discussions and group coaching with mentors and entrepreneurs from around the world."
+                />
+                <Card3
+                  img="https://ik.imagekit.io/internquest/Intern_Quest/62f931efb5d6722a83dc2afd_emojis-completion05.png"
+                  title="Access Resources"
+                  text="Enhance your learning experience with access to multiple authentic resources."
+                />
               </div>
             </div>
           </div>
