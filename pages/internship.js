@@ -140,7 +140,7 @@ const internship = () => {
                 <Card4
                   text="Students"
                   para="wanting to learn new skills/upskill and gain work experience"
-                  img="https://ibb.co/d68v8xy"
+                  img="https://www.linkpicture.com/q/62f931550825c85c0425bae1_Group-16733.png"
                 />
                 <Card4
                   text="Fresh Graduates"
@@ -150,6 +150,7 @@ const internship = () => {
                 <Card4
                   text="Working Professionals"
                   para="who want to grow in their career and become an expert"
+                  img="https://www.linkpicture.com/q/62f931550825c8398d25bad9_Ellipse-2600.png"
                 />
               </div>
             </div>
@@ -157,7 +158,7 @@ const internship = () => {
         </div>
 
         {/* next */}
-        <div className="bg-[#fff] text-[#000]">
+        <div className="bg-[#fafafa] text-[#000]">
           <div className="pt-[94px] pb-[135px] relative flex w-[90%] max-w-[1160px] mx-auto justify-center items-center md:pt-[60px] md:pb-[120px] sm:w-[90%] lg:flex-col">
             <div className="relative z-[11] w-[100%] md:flex-col">
               <div className="font-['ClashDisplay-Variable'] mb-[30px] max-w-[800px] sm:text-[30px] mx-auto text-center md:text-[35px] lg:text-[38px] lg:leading-[100%] text-[40px] leading-[58px] tracking-[-0.04em] font-[700]">
