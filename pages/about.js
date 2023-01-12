@@ -74,7 +74,7 @@ work experience "
                 </div>
               </div>
               <div>
-                <div className="bg-[#fff] border gap-[30px] flex flex-row border-solid border-[#000] rounded-[25px] pl-[3rem] pr-[2rem] pt-[2.25rem] pb-[3.75rem]">
+                <div className="bg-[#fff] border gap-[30px] flex flex-row border-solid border-[#000] rounded-[25px] pl-[3rem] pr-[2rem] pt-[2.25rem] pb-[2.25rem]">
                   <div className="flex flex-col">
                     <div className="text-[#dfdfe4] w-[320px] font-['ClashDisplay-Variable'] font-[700] text-[40px] leading-[49px]">
                       Proof of work
@@ -100,7 +100,7 @@ work experience "
           </div>
           {/* ------------------------ */}
 
-          <div className="bg-[#F5F5F5] flex flex-col px-[6.625rem] pt-[3.125rem] pb-[8.375rem]">
+          <div className="bg-[#F3F3F3] flex flex-col px-[6.625rem] pt-[3.125rem] pb-[8.375rem]">
             <div className="w-[1027px] font-['ClashDisplay-Variable'] h-[188px] ml-[50px] fonr-clash font-[700] text-[180px] leading-[221px] text-[#DFDFE4]">
               Our vision
             </div>
