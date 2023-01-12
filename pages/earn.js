@@ -3,7 +3,7 @@ import Typewriter from "typewriter-effect";
 const earn = () => {
   return (
     <>
-      <div className="bg-[#000] text-[#fff] ">
+      <div className="bg-[#000] text-[#fff] h-[100vh]">
         <div className="page-padding ">
           <div className="max-w-[72.5rem] mx-auto pt-[2rem]">
             <div className=" md:gap-y-[2rem] py-[4.3rem] gap-x-[4rem] flex justify-center items-center md:pt-[6.7rem] md:flex-col lg:pt-[5.8rem] lg:pb-[3rem] ">
