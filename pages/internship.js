@@ -131,7 +131,7 @@ const internship = () => {
         </div>
         {/* -------- */}
         <div className="bg-[#fff] text-[#000]">
-          <div className="pt-[60px] pb-[100px] relative flex w-[90%] max-w-[1160px] mx-auto justify-center items-center md:pt-[60px] md:pb-[120px] sm:w-[90%] lg:flex-col">
+          <div className="pt-[60px] pb-[50px] relative flex w-[90%] max-w-[1160px] mx-auto justify-center items-center md:pt-[60px] md:pb-[120px] sm:w-[90%] lg:flex-col">
             <div className="relative z-[11] w-[100%] md:flex-col">
               <div className="font-['ClashDisplay-Variable'] mb-[30px] max-w-[800px] sm:text-[30px] mx-auto text-center md:text-[35px] lg:text-[38px] lg:leading-[100%] text-[40px] leading-[58px] tracking-[-0.04em] font-[700]">
                 Who is this Internship curated for?
@@ -159,7 +159,7 @@ const internship = () => {
 
         {/* next */}
         <div className="bg-[#fafafa] text-[#000]">
-          <div className="pt-[60px] pb-[100px] relative flex w-[90%] max-w-[1160px] mx-auto justify-center items-center md:pt-[60px] md:pb-[120px] sm:w-[90%] lg:flex-col">
+          <div className="pt-[60px] pb-[50px] relative flex w-[90%] max-w-[1160px] mx-auto justify-center items-center md:pt-[60px] md:pb-[120px] sm:w-[90%] lg:flex-col">
             <div className="relative z-[11] w-[100%] md:flex-col">
               <div className="font-['ClashDisplay-Variable'] mb-[30px] max-w-[800px] sm:text-[30px] mx-auto text-center md:text-[35px] lg:text-[38px] lg:leading-[100%] text-[40px] leading-[58px] tracking-[-0.04em] font-[700]">
                 Choose a track that fits your career goals
@@ -202,7 +202,7 @@ const internship = () => {
         {/* ------ */}
         {/* next section  */}
         <div className="bg-[#fff] text-[#000]">
-          <div className="pt-[60px] pb-[100px] relative flex w-[90%] max-w-[1160px] mx-auto justify-center items-center md:pt-[60px] md:pb-[120px] sm:w-[90%] lg:flex-col">
+          <div className="pt-[60px] pb-[50px] relative flex w-[90%] max-w-[1160px] mx-auto justify-center items-center md:pt-[60px] md:pb-[120px] sm:w-[90%] lg:flex-col">
             <div className="relative z-[11] w-[100%] md:flex-col">
               <div className="font-['ClashDisplay-Variable'] mb-[30px] max-w-[800px] sm:text-[30px] mx-auto text-center md:text-[35px] lg:text-[38px] lg:leading-[100%] text-[40px] leading-[58px] tracking-[-0.04em] font-[700]">
                 Choose a track that fits your career goals
