@@ -137,9 +137,20 @@ const internship = () => {
                 Who is this Internship curated for?
               </div>
               <div className="sm:grid-cols-[1fr] md:grid-cols-[1fr_1fr] mt-[64px] grid-rows-[auto] grid auto-cols-[1fr] gap-x-[1.8rem] gap-y-[3rem] grid-cols-[1fr_1fr_1fr] ">
-                <Card4 text="Students" />
-                <Card4 text="Graduates" />
-                <Card4 text="Working Professionals" />
+                <Card4
+                  text="Students"
+                  para="wanting to learn new skills/upskill and gain work experience"
+                  img="https://ibb.co/d68v8xy"
+                />
+                <Card4
+                  text="Fresh Graduates"
+                  para="Fresh off the boat graduates who want to land their dream job."
+                  img="https://static.rock.so/file/6KNZ2ZMK~/6KNZ2ZMK/c7cc72aafa183d12b04e6f9462aaa9a0/t-image.png"
+                />
+                <Card4
+                  text="Working Professionals"
+                  para="who want to grow in their career and become an expert"
+                />
               </div>
             </div>
           </div>

@@ -3,7 +3,7 @@ const Card4 = (props) => {
     <div className="opacity-[1] col-start-[span_1] col-end-[span_1] row-start-[span_1] row-end-[span_1] sm:p-[16px] p-[24px] rounded-[6px] bg-[#fff] ">
       <div className="w-[56px] h-[56px] rounded-0 overflow-hidden mb-[24px]">
         <img
-          src="https://static.rock.so/file/6KNZ2ZMK~/6KNZ2ZMK/c7cc72aafa183d12b04e6f9462aaa9a0/t-image.png"
+          src={props.img}
           className="max-w-full align-middle inline-block"
         ></img>
       </div>
