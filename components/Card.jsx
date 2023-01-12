@@ -16,7 +16,7 @@ const Card = (props) => {
           <div className="mt-[20px] font-clash font-[500] text-[20px] leading-[2.4rem] tracking-[0.02em]  font-['ClashDisplay-Variable'] text-[#000]">
             {props.title1}
           </div>
-          <div className="mt-[20px] font-inter font-[400] text-[1.125rem] leading-[1.75rem] tracking-[-0.01em]">
+          <div className="mt-[20px] font-inter font-[400] text-[1.125rem] leading-[2rem] tracking-[-0.01em]">
             {props.para}
           </div>
         </div>
