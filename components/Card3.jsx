@@ -11,7 +11,7 @@ const Card3 = (props) => {
         <p className="sm:mt-[5px] pb-0 text-[16px] font-[500] md:text-[15px] ">
           {props.title}
         </p>
-        <p className="text-[#495057] text-[1rem] tracking-[-0.015em] leading-[1.75rem] sm:text-[16px] sm:leading-[24px] md:text-[15px]">
+        <p className="text-[#495057] text-[1rem] tracking-[-0.015em] leading-[1.75rem] ">
           {props.text}
         </p>
       </div>

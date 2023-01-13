@@ -3,7 +3,7 @@ import Cards from "../components/Cards";
 const dummy = () => {
   return (
     <div className="font-['ClashDisplay-Variable']">
-      <Cards />
+      <div className="text-[4rem]">hello</div>
     </div>
   );
 };
