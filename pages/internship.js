@@ -133,7 +133,7 @@ const internship = () => {
         <div className="bg-[#fff] text-[#000]">
           <div className="pt-[60px] pb-[50px] relative flex w-[90%] max-w-[1160px] mx-auto justify-center items-center md:pt-[60px] md:pb-[120px] sm:w-[90%] lg:flex-col">
             <div className="relative z-[11] w-[100%] md:flex-col">
-              <div className="font-['ClashDisplay-Variable'] max-w-[800px] sm:text-[30px] mx-auto text-center md:text-[35px] lg:text-[38px] lg:leading-[100%] text-[2rem] leading-[58px] font-[600]">
+              <div className="font-['ClashDisplay-Variable'] max-w-[800px] sm:text-[30px] mx-auto text-center md:text-[35px] lg:text-[38px] lg:leading-[100%] text-[2rem] leading-[58px] sm:leading-[1.3] font-[600]">
                 Who is this Internship curated for?
               </div>
               <div className="sm:grid-cols-[1fr] md:grid-cols-[1fr_1fr] mt-[64px] grid-rows-[auto] grid auto-cols-[1fr] gap-x-[1.8rem] gap-y-[3rem] grid-cols-[1fr_1fr_1fr] ">
@@ -161,8 +161,8 @@ const internship = () => {
         <div className="bg-[#fafafa] text-[#000]">
           <div className="pt-[60px] pb-[50px] relative flex w-[90%] max-w-[1160px] mx-auto justify-center items-center md:pt-[60px] md:pb-[120px] sm:w-[90%] lg:flex-col">
             <div className="relative z-[11] w-[100%] md:flex-col">
-              <div className="font-['ClashDisplay-Variable'] max-w-[800px] sm:text-[30px] mx-auto text-center md:text-[35px] lg:text-[38px] lg:leading-[100%] text-[2rem] leading-[58px] font-[600]">
-                Choose a track that fits your career goals
+              <div className="font-['ClashDisplay-Variable'] max-w-[800px] sm:text-[30px] mx-auto text-center md:text-[35px] lg:text-[38px] lg:leading-[100%] text-[2rem] sm:leading-[1.4] leading-[58px] font-[600]">
+                Learning experience designed for career success
               </div>
               <div className="sm:grid-cols-[1fr] md:grid-cols-[1fr_1fr] mt-[64px] grid-rows-[auto] grid auto-cols-[1fr] gap-x-[1.8rem] gap-y-[3rem] grid-cols-[1fr_1fr_1fr] ">
                 <Card5
@@ -204,8 +204,8 @@ const internship = () => {
         <div className="bg-[#fff] text-[#000]">
           <div className="pt-[60px] pb-[50px] relative flex w-[90%] max-w-[1160px] mx-auto justify-center items-center md:pt-[60px] md:pb-[120px] sm:w-[90%] lg:flex-col">
             <div className="relative z-[11] w-[100%] md:flex-col">
-              <div className="font-['ClashDisplay-Variable'] max-w-[800px] sm:text-[30px] mx-auto text-center md:text-[35px] lg:text-[38px] lg:leading-[100%] text-[2rem] leading-[58px] font-[600]">
-                Choose a track that fits your career goals
+              <div className="font-['ClashDisplay-Variable'] max-w-[800px] sm:leading-[1.4] sm:text-[30px] mx-auto text-center md:text-[35px] lg:text-[38px] lg:leading-[100%] text-[2rem] leading-[58px] font-[600]">
+                Benefits you receive upon completion
               </div>
               <div className="sm:grid-cols-[1fr] md:grid-cols-[1fr_1fr] mt-[64px] grid-rows-[auto] grid auto-cols-[1fr] gap-x-[1.8rem] gap-y-[3rem] grid-cols-[1fr_1fr_1fr] ">
                 <Card3

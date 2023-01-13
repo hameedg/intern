@@ -17,7 +17,7 @@ const FAQ = () => {
         }
         onClick={click}
       >
-        <h3 className="font-inter leading-[1.5] font-[600] text-[1rem]">
+        <h3 className="font-['ClashDisplay-Variable'] leading-[1.5] font-[500] text-[1.125rem]">
           How do I apply for this challenge?
         </h3>
         <div className="md:top-[1.2rem] md:w-[1rem] md:h-[1rem] absolute left-auto top-[1.4125rem] right-[1rem] bottom-auto w-[1.25rem] h-[1.25rem]">
@@ -47,7 +47,7 @@ const FAQ = () => {
       >
         <div className="h-[1rem]"></div>
         <div className=""></div>
-        <p className="text-[0.875rem] leading-[1.5rem] tracking-[-0.015em]">
+        <p className="text-[0.9375rem] leading-[1.75rem] tracking-[-0.015em]">
           {" "}
           Yes! Our community is completely free and always will be. There are
           additional exclusive channels that are for members only, but the core
