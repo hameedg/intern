@@ -47,7 +47,7 @@ const FAQ = () => {
       >
         <div className="h-[1rem]"></div>
         <div className=""></div>
-        <p>
+        <p className="text-[0.875rem] leading-[1.5rem] tracking-[-0.015em]">
           {" "}
           Yes! Our community is completely free and always will be. There are
           additional exclusive channels that are for members only, but the core
