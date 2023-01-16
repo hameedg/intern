@@ -152,16 +152,16 @@ const Navbar = () => {
                 <div className="flex flex-col">
                   <div className="pt-0 pl-0 pr-0 pb-[1.125rem]"></div>
                   <p className="text-[1rem] mb-[1.5rem] leading-[1.33] font-inter font-[500] tracking-[0.015625rem]">
-                    About
+                    <Link href="/about">About</Link>
                   </p>
                   <p className="text-[1rem] mb-[1.5rem] leading-[1.33] font-inter font-[500] tracking-[0.015625rem]">
-                    Community
+                    <Link href="/community">Community</Link>
                   </p>{" "}
                   <p className="text-[1rem] mb-[1.5rem] leading-[1.33] font-inter font-[500] tracking-[0.015625rem]">
-                    Earn
+                    <Link href="/earn">Earn</Link>
                   </p>{" "}
                   <p className="text-[1rem] mb-[1.5rem] leading-[1.33] font-inter font-[500] tracking-[0.015625rem]">
-                    Jobs
+                    <Link href="/jobs">Jobs</Link>
                   </p>{" "}
                 </div>
                 <div className="blue-button">Become a Member</div>
