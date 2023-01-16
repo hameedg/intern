@@ -14,7 +14,7 @@ const Cards = () => {
           className={
             !drop
               ? "container rounded-md max-w-[62.5rem] mt-[120px] p-0 mx-auto bg-white mb-8 "
-              : "container rounded-md max-w-[62.5rem] mt-[120px] p-0 mx-auto bg-white mb-8 blur-md bg-radient-to-r from-gray-50 to-gray-300 " /**fixed */
+              : "container rounded-md max-w-[62.5rem] mt-[120px] p-0 mx-auto bg-white mb-8 100vh 100vw fixed top-0 right-0 bottom-0 left-0 backdrop-blur-[3px] " /**fixed */
           }
         >
           <div className="p-[0.9375rem] border rounded-sm">
@@ -325,7 +325,7 @@ const Cards = () => {
           </div>
         </div>
         {drop ? (
-          <div className="block opacity-[1] z-[2000] text-center fixed top-0 left-0 w-[100%] h-[100%] overflow-x-hidden overflow-y-auto">
+          <div className="bg-[#000000b3] block opacity-[1] z-[2000] text-center fixed top-0 left-0 w-[100%] h-[100%] overflow-x-hidden overflow-y-auto">
             <div className="max-w-[400px] min-h-[calc(100%-3.5rem)] my-[1.75rem] mx-auto flex items-center relative w-auto pointer-events-none ">
               <div className="relative flex flex-col w-[100%] pointer-events-auto bg-[#fff] bg-clip-padding rounded-[12px]">
                 <div className="items-center flex-col text-center justify-center flex pt-[32px] pr-[32px] pl-[32px] pb-0 ">
@@ -335,13 +335,15 @@ const Cards = () => {
                   </p>
                 </div>
                 <div className="relative flex-grow-[1] flex-shrink-[1] basis-auto pt-0 px-[32px] pb-[32px] ">
-                  <div className="blue-button">Sign Up</div>
-                  <div className="white-button mt-[8px]  border border-[#2667ff] hover:bg-[#f3f3f5]">
+                  <div className="blue-button py-[0.6rem] border-[#2667ff]">
+                    Sign Up
+                  </div>
+                  <div className="white-button mt-[10px]  border border-[#2667ff] hover:bg-[#f3f3f5] text-[#2667ff]">
                     Sign Up
                   </div>
                   <hr className="mt-[16px] mb-[16px] border border-[solid] border-[#e0e0e0]"></hr>
                   <div
-                    className="white-button hover:bg-[#fff]"
+                    className="white-button hover:bg-[#fff] text-[#2667ff]"
                     onClick={handle}
                   >
                     Close
