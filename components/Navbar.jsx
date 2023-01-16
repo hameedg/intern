@@ -4,9 +4,13 @@ import Link from "next/link";
 
 const Navbar = () => {
   const [drop, setDrop] = useState(false);
+  const [open, setOpen] = useState(false);
 
   function handle() {
     setDrop(!drop);
+  }
+  function handly() {
+    setOpen(!open);
   }
   return (
     <div className="navbar z-[999]">
@@ -42,7 +46,7 @@ const Navbar = () => {
             <div className="list-items">
               <div className=" tracking-[-0.015em] z-[999] flex flex-col justify-center items-center rounded-[0.5rem] relative text-left mx-auto">
                 <div
-                  className="mr-[4px] cursor-pointer text-[0.875rem] leading-[1.43] font-[500] tracking-[0.015635rem] bg-[#222222] rounded-[0.5rem] hover:bg-[#2667ff] flex h-auto pt-[0.375rem] pr-[0.83333rem] pl-[0.833333333rem] pb-[0.375rem] items-center relative align-top text-left mx-auto"
+                  className="mr-[4px] text-[0.875rem] leading-[1.43] font-[500] tracking-[0.015635rem] bg-[#222222] rounded-[0.5rem] hover:bg-[#2667ff] flex h-auto pt-[0.375rem] pr-[0.83333rem] pl-[0.833333333rem] pb-[0.375rem] items-center relative align-top text-left mx-auto"
                   onClick={handle}
                 >
                   Internships
@@ -109,7 +113,10 @@ const Navbar = () => {
             </div>
           </div>
           <div className="blue-button">Sign Up</div>
-          <div className="p-[10px] relative float-right text-[24px] md:block hidden md:ml-[5px]">
+          <div
+            className="p-[10px] relative float-right text-[24px] md:block hidden md:ml-[5px]"
+            onClick={handly}
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               x="0px"
@@ -122,6 +129,45 @@ const Navbar = () => {
               <path d="M 3 7 A 1.0001 1.0001 0 1 0 3 9 L 27 9 A 1.0001 1.0001 0 1 0 27 7 L 3 7 z M 3 14 A 1.0001 1.0001 0 1 0 3 16 L 27 16 A 1.0001 1.0001 0 1 0 27 14 L 3 14 z M 3 21 A 1.0001 1.0001 0 1 0 3 23 L 27 23 A 1.0001 1.0001 0 1 0 27 21 L 3 21 z"></path>
             </svg>
           </div>
+          {!open ? (
+            <div className="flex fixed left-0 top-0 right-0 bottom-0 mt-[4.125rem] flex-col items-start dm:hidden">
+              <div className="opacity-[1] items-start w-[100%] h-[100%] p-[3.375rem] flex-col bg-[#1b1b1b] flex">
+                <div className="flex flex-col">
+                  <p className="text-[#808080] text-[0.825rem] font-inter leading-[1.5] font-[400]">
+                    Internships
+                  </p>
+                  <div className="pt-0 pl-0 pr-0 pb-[1.125rem]"></div>
+                  <p className="text-[1rem] mb-[1.5rem] leading-[1.33] font-inter font-[500] tracking-[0.015625rem]">
+                    Frontend Development
+                  </p>
+                  <p className="text-[1rem] mb-[1.5rem] leading-[1.33] font-inter font-[500] tracking-[0.015625rem]">
+                    Backend Development
+                  </p>{" "}
+                  <p className="text-[1rem] mb-[1.5rem] leading-[1.33] font-inter font-[500] tracking-[0.015625rem]">
+                    Full-Stack Development
+                  </p>{" "}
+                </div>
+                <div className="pt-0 pl-0 pr-0 pb-[1.125rem]"></div>
+
+                <div className="flex flex-col">
+                  <div className="pt-0 pl-0 pr-0 pb-[1.125rem]"></div>
+                  <p className="text-[1rem] mb-[1.5rem] leading-[1.33] font-inter font-[500] tracking-[0.015625rem]">
+                    About
+                  </p>
+                  <p className="text-[1rem] mb-[1.5rem] leading-[1.33] font-inter font-[500] tracking-[0.015625rem]">
+                    Community
+                  </p>{" "}
+                  <p className="text-[1rem] mb-[1.5rem] leading-[1.33] font-inter font-[500] tracking-[0.015625rem]">
+                    Earn
+                  </p>{" "}
+                  <p className="text-[1rem] mb-[1.5rem] leading-[1.33] font-inter font-[500] tracking-[0.015625rem]">
+                    Jobs
+                  </p>{" "}
+                </div>
+                <div className="blue-button">Become a Member</div>
+              </div>
+            </div>
+          ) : null}
         </div>
       </div>
     </div>
