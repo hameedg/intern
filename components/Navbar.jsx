@@ -44,9 +44,9 @@ const Navbar = () => {
           </a> */}
           <div className="navbar-list">
             <div className="list-items">
-              <div className=" tracking-[-0.015em] z-[999] flex flex-col justify-center items-center rounded-[0.5rem] relative text-left mx-auto">
+              <div className="mr-[0.5rem] cursor-pointer tracking-[-0.015em] z-[999] flex flex-col justify-center items-center rounded-[0.5rem] relative text-left mx-auto">
                 <div
-                  className="mr-[4px] text-[0.875rem] leading-[1.43] font-[500] tracking-[0.015635rem] bg-[#222222] rounded-[0.5rem] hover:bg-[#2667ff] flex h-auto pt-[0.375rem] pr-[0.83333rem] pl-[0.833333333rem] pb-[0.375rem] items-center relative align-top text-left mx-auto"
+                  className="button-css mr-[4px] text-[0.875rem] leading-[1.43] font-[500] tracking-[0.015635rem] bg-[#222222] rounded-[0.5rem] hover:bg-[#2667ff] flex h-auto pt-[0.375rem] pr-[0.83333rem] pl-[0.833333333rem] pb-[0.375rem] items-center relative align-top text-left mx-auto"
                   onClick={handle}
                 >
                   Internships
@@ -99,16 +99,16 @@ const Navbar = () => {
                 ) : null}
               </div>
               <Link href="/about">
-                <div className="button-css">About</div>
+                <div className="button-css mr-[0.5rem]">About</div>
               </Link>
               <Link href="/community">
-                <div className="button-css">Community</div>
+                <div className="button-css mr-[0.5rem]">Community</div>
               </Link>{" "}
               <Link href="/earn">
-                <div className="button-css">Earn</div>
+                <div className="button-css mr-[0.5rem]">Earn</div>
               </Link>{" "}
               <Link href="/jobs">
-                <div className="button-css">Jobs</div>
+                <div className="button-css mr-[0.5rem]">Jobs</div>
               </Link>
             </div>
           </div>
