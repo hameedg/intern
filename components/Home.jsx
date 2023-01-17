@@ -23,7 +23,7 @@ const Home = () => {
               </div>
               <div className="mt-[20px]">
                 <img
-                  src="https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg"
+                  src="https://ik.imagekit.io/internquest/Intern_Quest/internquest_hero_section.png"
                   className="relative inline-block align-middle rounded-[25px] gl:h-[400px] gl:w-[500px] w-[350px] h-[250px]"
                 ></img>
               </div>
