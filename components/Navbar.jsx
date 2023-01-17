@@ -1,6 +1,7 @@
 import { useState } from "react";
 import NavCard from "../components/NavCard";
 import Link from "next/link";
+import NavCard1 from "./NavCard1";
 
 const Navbar = () => {
   const [drop, setDrop] = useState(false);
@@ -46,10 +47,10 @@ const Navbar = () => {
             <div className="list-items">
               <div className="mr-[0.5rem] cursor-pointer tracking-[-0.015em] z-[999] flex flex-col justify-center items-center rounded-[0.5rem] relative text-left mx-auto">
                 <div
-                  className="button-css mr-[4px] text-[0.875rem] leading-[1.43] font-[500] tracking-[0.015635rem] bg-[#222222] rounded-[0.5rem] hover:bg-[#2667ff] flex h-auto pt-[0.375rem] pr-[0.83333rem] pl-[0.833333333rem] pb-[0.375rem] items-center relative align-top text-left mx-auto"
+                  className="font-inter button-css mr-[4px] text-[0.875rem] leading-[1.43] font-[500] tracking-[0.015635rem] bg-[#222222] rounded-[0.5rem] hover:bg-[#2667ff] flex h-auto pt-[0.375rem] pr-[0.83333rem] pl-[0.833333333rem] pb-[0.375rem] items-center relative align-top text-left mx-auto"
                   onClick={handle}
                 >
-                  Internships
+                  Virtual Internships
                   <div className="ml-[6px]">
                     <svg
                       fill="#ffffff"
@@ -110,6 +111,62 @@ const Navbar = () => {
               <Link href="/jobs">
                 <div className="button-css mr-[0.5rem]">Jobs</div>
               </Link>
+              {/* ----------- */}
+              <div className="group mr-[0.5rem] cursor-pointer tracking-[-0.015em] z-[999] flex flex-col justify-center items-center rounded-[0.5rem] relative text-left mx-auto">
+                <div className=" font-inter button-css mr-[4px] text-[0.875rem] leading-[1.43] font-[500] tracking-[0.015635rem] bg-[#222222] rounded-[0.5rem] hover:bg-[#2667ff] flex h-auto pt-[0.375rem] pr-[0.83333rem] pl-[0.833333333rem] pb-[0.375rem] items-center relative align-top text-left mx-auto">
+                  Trending
+                  <div className="ml-[6px]">
+                    <svg
+                      fill="#ffffff"
+                      height="12px"
+                      width="15px"
+                      version="1.1"
+                      id="Layer_1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlnsXlink="http://www.w3.org/1999/xlink"
+                      viewBox="0 0 330 330"
+                      xmlSpace="preserve"
+                      stroke="#ffffff"
+                    >
+                      <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+                      <g
+                        id="SVGRepo_tracerCarrier"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+
+                      <g id="SVGRepo_iconCarrier">
+                        {" "}
+                        <path
+                          id="XMLID_225_"
+                          d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393 c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393 s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z"
+                        />{" "}
+                      </g>
+                    </svg>
+                  </div>
+                  {/* <img
+                    src="https://klasha.com/_next/static/media/dropdown.827ae27f.svg"
+                    className="ml-[6px]"
+                  ></img> */}
+                </div>
+
+                <nav className=" invisible group-hover:visible w-[24rem] p-[0.5rem] absolute left-[0%] top-[144%] right-[0%] bottom-[auto] z-[1000] rounded-[0.5rem] bg-[#0c0c0c]">
+                  <div className="grid gap-x-[1rem] grid-cols-1">
+                    <Link href="/dream-internships">
+                      <NavCard1
+                        name="Dream Internships"
+                        text="Get rewarded with referrals to your dream internships."
+                      />
+                    </Link>
+                    <NavCard1
+                      name="Startup Meet"
+                      text="Connect over a one-on-one meet with startups building the next big thing"
+                    />
+                  </div>
+                </nav>
+              </div>
+              {/* ------- */}
             </div>
           </div>
           <div className="blue-button">

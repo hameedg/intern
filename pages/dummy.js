@@ -23,9 +23,10 @@ const dummy = () => {
         </div>
       </div> */}
       <div class="group">
-        <button class="text-[#000] hidden group-hover:block text-[5rem]">
-          Hello
-        </button>
+        <p>Some content that is always visible.</p>
+        <p class="invisible group-hover:visible">
+          I am hidden until my parent is hovered!
+        </p>
       </div>
     </>
   );

@@ -24,6 +24,7 @@ module.exports = {
       archivo: ["Archivo", "sans-serif"],
     },
     extend: {
+      visibility: ["group-hover"],
       animation: {
         marquee: "marquee 25s linear infinite",
         marquee2: "marquee2 25s linear infinite",
