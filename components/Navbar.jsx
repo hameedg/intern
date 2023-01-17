@@ -117,17 +117,33 @@ const Navbar = () => {
             className="p-[10px] relative float-right text-[24px] md:block hidden md:ml-[5px]"
             onClick={handly}
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              x="0px"
-              y="0px"
-              width="30"
-              height="30"
-              viewBox="0 0 30 30"
-              className="fill-[#fff]"
-            >
-              <path d="M 3 7 A 1.0001 1.0001 0 1 0 3 9 L 27 9 A 1.0001 1.0001 0 1 0 27 7 L 3 7 z M 3 14 A 1.0001 1.0001 0 1 0 3 16 L 27 16 A 1.0001 1.0001 0 1 0 27 14 L 3 14 z M 3 21 A 1.0001 1.0001 0 1 0 3 23 L 27 23 A 1.0001 1.0001 0 1 0 27 21 L 3 21 z"></path>
-            </svg>
+            <button class="flex items-center space-x-2 focus:outline-none">
+              <div class="w-6 flex items-center justify-center relative">
+                <span
+                  className={
+                    open
+                      ? "transform transition w-full h-px bg-current absolute translate-y-0 rotate-45"
+                      : "-translate-y-2 transform transition w-full h-px bg-current absolute"
+                  }
+                ></span>
+
+                <span
+                  className={
+                    open
+                      ? "transform transition w-full h-px bg-current absolute opacity-0 translate-x-3"
+                      : "opacity-100 transform transition w-full h-px bg-current absolute"
+                  }
+                ></span>
+
+                <span
+                  className={
+                    open
+                      ? "transform transition w-full h-px bg-current absolute translate-y-0 -rotate-45"
+                      : "translate-y-2 transform transition w-full h-px bg-current absolute"
+                  }
+                ></span>
+              </div>
+            </button>
           </div>
           {open ? (
             <div className="flex fixed left-0 top-0 right-0 bottom-0 mt-[4.125rem] flex-col items-start dm:hidden">
