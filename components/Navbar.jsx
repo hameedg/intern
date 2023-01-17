@@ -112,7 +112,9 @@ const Navbar = () => {
               </Link>
             </div>
           </div>
-          <div className="blue-button">Sign Up</div>
+          <div className="blue-button">
+            <Link href="/signup">Sign Up</Link>
+          </div>
           <div
             className="p-[10px] relative float-right text-[24px] md:block hidden md:ml-[5px]"
             onClick={handly}
