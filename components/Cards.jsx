@@ -51,7 +51,7 @@ const Cards = () => {
                     (Sum...
                   </h4>
                   <div className="flex items-center cursor-pointer mb-3 break-words truncate">
-                    <p className=" hover:text-highlight leading-4 text-sm">
+                    <p className=" hover:text-highlight leading-4 text-sm font-inter">
                       Tesla
                     </p>
                   </div>
