@@ -112,7 +112,7 @@ const Navbar = () => {
                 <div className="button-css mr-[0.5rem]">Jobs</div>
               </Link>
               {/* ----------- */}
-              <div className="group mr-[0.5rem] cursor-pointer tracking-[-0.015em] z-[999] flex flex-col justify-center items-center rounded-[0.5rem] relative text-left mx-auto">
+              <div className="group inline-block relative mr-[0.5rem] cursor-pointer tracking-[-0.015em] z-[999] flex flex-col justify-center items-center rounded-[0.5rem] relative text-left mx-auto">
                 <div className=" font-inter button-css mr-[4px] text-[0.875rem] leading-[1.43] font-[500] tracking-[0.015635rem] bg-[#222222] rounded-[0.5rem] hover:bg-[#2667ff] flex h-auto pt-[0.375rem] pr-[0.83333rem] pl-[0.833333333rem] pb-[0.375rem] items-center relative align-top text-left mx-auto">
                   Trending
                   <div className="ml-[6px]">
@@ -151,7 +151,7 @@ const Navbar = () => {
                   ></img> */}
                 </div>
 
-                <nav className=" invisible group-hover:visible w-[24rem] p-[0.5rem] absolute left-[0%] top-[144%] right-[0%] bottom-[auto] z-[1000] rounded-[0.5rem] bg-[#0c0c0c]">
+                <nav className=" hidden group-hover:block w-[24rem] p-[0.5rem] absolute left-[0%] top-[100%] right-[0%] bottom-[auto] z-[1000] rounded-[0.5rem] bg-[#0c0c0c]">
                   <div className="grid gap-x-[1rem] grid-cols-1">
                     <Link href="/dream-internships">
                       <NavCard1

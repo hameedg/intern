@@ -166,22 +166,22 @@ const internship = () => {
               </div>
               <div className="sm:grid-cols-[1fr] md:grid-cols-[1fr_1fr] mt-[64px] grid-rows-[auto] grid auto-cols-[1fr] gap-x-[1.8rem] gap-y-[3rem] grid-cols-[1fr_1fr_1fr] ">
                 <Card5
-                  img=""
+                  img="https://ik.imagekit.io/internquest/Intern_Quest/live_sessions.png"
                   title="Live Sessions"
                   text="You will experience interactive learning at its best. Our live masterclasses will help you engage and participate to learn more."
                 />
                 <Card5
-                  img=""
+                  img="https://ik.imagekit.io/internquest/Intern_Quest/performance.png"
                   title="Performance Learning"
                   text="Reinforce your learnings after each masterclass by mentor designed hands-on projects and receive guidance on career success."
                 />
                 <Card5
-                  img=""
+                  img="https://ik.imagekit.io/internquest/Intern_Quest/certificate.png"
                   title="Evaluation & Certificates"
                   text="Get immediate feedback and ratings upon completion of your projects by our leading mentors and get awarded with certificates."
                 />
                 <Card5
-                  img=""
+                  img="https://ik.imagekit.io/internquest/Intern_Quest/diverse_community.png"
                   title="Diverse Community"
                   text="You can be a part of our community, as the masterclasses engage in mentor and peer learning creating diversity."
                 />

@@ -35,68 +35,91 @@ const Cards = () => {
               Dream Internships of january
             </p>
             <div className="grid gl:grid-cols-3 gap-[0.9375rem] grid-rows-[auto] ms:grid-cols-1 dm:grid-cols-2">
-              <JobCard
-                img="https://ik.imagekit.io/internquest/Intern_Quest/Netflix.png"
-                name="Design Technology Intern - Experience Design"
-                text="Netflix"
-              />
-              <JobCard
-                img="https://ik.imagekit.io/internquest/Intern_Quest/Tesla.png"
-                name="Maps & Autopilot Navigation Internship, Vehicle Software
-                    (Sum.."
-                text="Tesla"
-              />
-              <JobCard
-                name="Forbes Editorial Internship - Summer 2023"
-                text="Forbes"
-                img="https://ik.imagekit.io/internquest/Intern_Quest/Forbes.png"
-              />
-              <JobCard
-                name="UX/UI Tools Programmer Intern - Unreal Engine"
-                text="Epic Games"
-                img="https://ik.imagekit.io/internquest/Intern_Quest/Epic_Games.png"
-              />
-              <JobCard
-                name="MBA Intern - Strategic Finance & Analytics"
-                text="Airbnb"
-                img="https://ik.imagekit.io/internquest/Intern_Quest/Airbnb.png"
-              />
-              <JobCard
-                name="Summer Internship, User Research | Platform Mission (EMEA)"
-                text="Spotify"
-                img="https://ik.imagekit.io/internquest/Intern_Quest/Spotify.png"
-              />
-              <JobCard
-                name="Human Resources Summer Internship 2023"
-                text="Procter & Gamble"
-                img="https://ik.imagekit.io/internquest/Intern_Quest/P_G.png"
-              />
-              <JobCard
-                name="Dev Degree Intern, 2023"
-                text="Shopify"
-                img="https://ik.imagekit.io/internquest/Intern_Quest/Shopify.png"
-              />
-              <JobCard
-                name="Security Engineering Intern, Security, Privacy, Assurance"
-                text="Netflix"
-                img="https://ik.imagekit.io/internquest/Intern_Quest/Netflix.png"
-              />
-              <JobCard
-                name="Data Science Intern, Decisions - Inference (Summer 2023)"
-                text="Lyft"
-                img="https://ik.imagekit.io/internquest/Intern_Quest/Lyft.png"
-              />
-
-              <JobCard
-                name="Data Science Intern, Decisions - Inference (Summer 2023)"
-                text="Lyft"
-                img="https://ik.imagekit.io/internquest/Intern_Quest/Lyft.png"
-              />
-              <JobCard
-                name="Associate Solutions Architect Internship - Summer 2023 Sing..."
-                text="Amazon Web Services(AWS)"
-                img="https://ik.imagekit.io/internquest/Intern_Quest/AWS.png"
-              />
+              <div onClick={handle}>
+                <JobCard
+                  img="https://ik.imagekit.io/internquest/Intern_Quest/Netflix.png"
+                  name="Design Technology Intern - Experience Design"
+                  text="Netflix"
+                />
+              </div>
+              <div onClick={handle}>
+                <JobCard
+                  img="https://ik.imagekit.io/internquest/Intern_Quest/Tesla.png"
+                  name="Maps & Autopilot Navigation Internship, Vehicle Software
+                (Sum.."
+                  text="Tesla"
+                />
+              </div>
+              <div onClick={handle}>
+                <JobCard
+                  name="Forbes Editorial Internship - Summer 2023"
+                  text="Forbes"
+                  img="https://ik.imagekit.io/internquest/Intern_Quest/Forbes.png"
+                />
+              </div>
+              <div onClick={handle}>
+                <JobCard
+                  name="UX/UI Tools Programmer Intern - Unreal Engine"
+                  text="Epic Games"
+                  img="https://ik.imagekit.io/internquest/Intern_Quest/Epic_Games.png"
+                />
+              </div>
+              <div onClick={handle}>
+                <JobCard
+                  name="MBA Intern - Strategic Finance & Analytics"
+                  text="Airbnb"
+                  img="https://ik.imagekit.io/internquest/Intern_Quest/Airbnb.png"
+                />
+              </div>
+              <div onClick={handle}>
+                <JobCard
+                  name="Summer Internship, User Research | Platform Mission (EMEA)"
+                  text="Spotify"
+                  img="https://ik.imagekit.io/internquest/Intern_Quest/Spotify.png"
+                />
+              </div>
+              <div onClick={handle}>
+                <JobCard
+                  name="Human Resources Summer Internship 2023"
+                  text="Procter & Gamble"
+                  img="https://ik.imagekit.io/internquest/Intern_Quest/P_G.png"
+                />
+              </div>
+              <div onClick={handle}>
+                <JobCard
+                  name="Dev Degree Intern, 2023"
+                  text="Shopify"
+                  img="https://ik.imagekit.io/internquest/Intern_Quest/Shopify.png"
+                />
+              </div>
+              <div onClick={handle}>
+                <JobCard
+                  name="Security Engineering Intern, Security, Privacy, Assurance"
+                  text="Netflix"
+                  img="https://ik.imagekit.io/internquest/Intern_Quest/Netflix.png"
+                />
+              </div>
+              <div onClick={handle}>
+                <JobCard
+                  name="Data Science Intern, Decisions - Inference (Summer 2023)"
+                  text="Lyft"
+                  img="https://ik.imagekit.io/internquest/Intern_Quest/Lyft.png"
+                />
+              </div>
+              <div onClick={handle}>
+                <JobCard
+                  name="Data Science Intern, Decisions - Inference (Summer 2023)"
+                  text="Lyft"
+                  img="https://ik.imagekit.io/internquest/Intern_Quest/Lyft.png"
+                />
+              </div>
+              <div onClick={handle}>
+                <JobCard
+                  name="Associate Solutions Architect Internship - Summer 2023 Sing..."
+                  text="Amazon Web Services(AWS)"
+                  img="https://ik.imagekit.io/internquest/Intern_Quest/AWS.png"
+                />
+              </div>
             </div>
           </div>
         </div>
