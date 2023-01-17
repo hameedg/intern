@@ -122,17 +122,17 @@ const index = () => {
       <div className="bg-[#F2F2F2]">
         <div className="section1-wrapper">
           <div className="section1-container">
-            <div className="pt-0 px-0 pb-[6rem]"></div>
+            <div className="pt-0 px-0 pb-[2rem]"></div>
             <div className="md:grid-cols-[1fr] grid auto-cols-[1fr] gap-x-[2rem] gap-y-[2rem] grid-cols-[1fr_1fr] grid-rows-[auto]">
               <div className="gl:ml-[50px] col-start-[span_1] col-end-[span_1] row-start-[span_1] row-end-[span_1] flex items-center max-w-[500px]">
-                <h2 className="font-['ClashDisplay-Variable'] font-[600] text-[2rem] leading-[39px]">
+                <h2 className="font-['ClashDisplay-Variable'] font-[600] text-[2rem] leading-[39px] sm:text-[1.5rem] sm:leading-[1.5] sm:font-[500]">
                   Are any of these challenges familier to you.?{" "}
                 </h2>
                 <div className="pt-0 px-0 pb-[2rem]"></div>
 
                 <div className="pt-0 px-0 pb-[2rem]"></div>
               </div>
-              <div className="max-w-[550px] opacity-[1] sm:list-disc col-start-[span_1] col-end-[span_1] row-start-[span_1] row-end-[span_1] p-[1.5rem] rounded-[1rem] bg-[#fff]">
+              <div className="max-w-[560px] opacity-[1] sm:list-disc col-start-[span_1] col-end-[span_1] row-start-[span_1] row-end-[span_1] p-[1.5rem] rounded-[1rem] bg-[#fff]">
                 <Point name={"No work experience?"} />
                 <Point name={"Not getting shortlisted for job interview?"} />
                 <Point name={"Unable to find the role you are looking for?"} />
@@ -154,7 +154,7 @@ const index = () => {
       </div>
       <div className="max-w-[617px] mx-auto bg-white pb-12 mt-16 ma  ">
         <h3
-          className={`font-['ClashDisplay-Variable'] text-[1.875rem] sm-mid-tablet:leading-snug antialiased tracking-[0] text-center font-[550] mb-6`}
+          className={`sm:text-[1.5rem] sm:leading-[1.5] sm:font-[500] font-['ClashDisplay-Variable'] text-[1.875rem] sm-mid-tablet:leading-snug antialiased tracking-[0] text-center font-[550] mb-6`}
         >
           A new way to get work experience
         </h3>
@@ -172,7 +172,7 @@ const index = () => {
             <div className="p-large"></div>
             <div className="text-center">
               <h3
-                className={`font-['ClashDisplay-Variable'] text-[#ffff] text-[30px] sm-mid-tablet:leading-snug antialiased tracking-[-1px] text-center font-bold mb-6`}
+                className={`font-['ClashDisplay-Variable'] text-[#ffff] text-[30px] sm-mid-tablet:leading-snug antialiased text-center font-[600] mb-6`}
               >
                 Steps to kick-start your
                 <br></br>
