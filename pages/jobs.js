@@ -5,6 +5,7 @@ const jobs = () => {
   return (
     <div>
       <Navbar />
+
       <Cards />
     </div>
   );
