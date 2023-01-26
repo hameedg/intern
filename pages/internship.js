@@ -229,12 +229,12 @@ const internship = () => {
                   text="Get on the fast track to in-demand jobs in growth hacking and more."
                 />
                 <Card3
-                  img="https://ik.imagekit.io/internquest/Intern_Quest/62f931efb5d672df37dc2af9_emojis-completion01.png"
+                  img="https://ik.imagekit.io/internquest/Intern_Quest/key.png"
                   title="Exclusive Community Access"
                   text="Access exclusive live sessions, panel discussions and group coaching with mentors and entrepreneurs from around the world."
                 />
                 <Card3
-                  img="https://ik.imagekit.io/internquest/Intern_Quest/62f931efb5d6722a83dc2afd_emojis-completion05.png"
+                  img="https://ik.imagekit.io/internquest/Intern_Quest/book.png"
                   title="Access Resources"
                   text="Enhance your learning experience with access to multiple authentic resources."
                 />

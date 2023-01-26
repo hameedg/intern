@@ -24,7 +24,8 @@ const community = () => {
             </div>
           </div>
           <div className="pt-[2rem]">
-            <Map />
+            {/* <Map /> */}
+            <img src="https://ik.imagekit.io/internquest/Intern_Quest/people.svg"></img>
           </div>
           <div className="mt-[142px] flex flex-col gl:ml-[105px]">
             <div className=" max-w-[748px] font-[500] text-[1.75rem] leading-[2.5rem]  font-['ClashDisplay-Variable'] mb-[20px]">
