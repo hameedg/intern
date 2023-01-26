@@ -39,7 +39,7 @@ const earn = () => {
               </div>
               <div className="mt-[20px]">
                 <img
-                  src="https://ik.imagekit.io/internquest/Intern_Quest/reward-min.png"
+                  src="https://ik.imagekit.io/internquest/Intern_Quest/reward__2_.svg"
                   className="relative inline-block align-middle rounded-[25px] gl:h-[400px] gl:w-[500px] w-[350px] h-[250px]"
                 ></img>
               </div>
