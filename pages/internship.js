@@ -166,7 +166,7 @@ const internship = () => {
               </div>
               <div className="sm:grid-cols-[1fr] md:grid-cols-[1fr_1fr] mt-[64px] grid-rows-[auto] grid auto-cols-[1fr] gap-x-[1.8rem] gap-y-[3rem] grid-cols-[1fr_1fr_1fr] ">
                 <Card5
-                  img="https://ik.imagekit.io/internquest/Intern_Quest/live_sessions.png"
+                  img="https://ik.imagekit.io/internquest/Intern_Quest/2__2_.svg"
                   title="Live Sessions"
                   text="You will experience interactive learning at its best. Our live masterclasses will help you engage and participate to learn more."
                 />
@@ -176,12 +176,12 @@ const internship = () => {
                   text="Reinforce your learnings after each masterclass by mentor designed hands-on projects and receive guidance on career success."
                 />
                 <Card5
-                  img="https://ik.imagekit.io/internquest/Intern_Quest/certificate.png"
+                  img="https://ik.imagekit.io/internquest/Intern_Quest/3__2_.svg"
                   title="Evaluation & Certificates"
                   text="Get immediate feedback and ratings upon completion of your projects by our leading mentors and get awarded with certificates."
                 />
                 <Card5
-                  img="https://ik.imagekit.io/internquest/Intern_Quest/diverse_community.png"
+                  img="https://ik.imagekit.io/internquest/Intern_Quest/1__2_.svg"
                   title="Diverse Community"
                   text="You can be a part of our community, as the masterclasses engage in mentor and peer learning creating diversity."
                 />
@@ -191,7 +191,7 @@ const internship = () => {
                   text="After project submission, you can kickstart your career by getting hired in world leading organizations."
                 />
                 <Card5
-                  img=""
+                  img="https://ik.imagekit.io/internquest/Intern_Quest/4__2_.svg"
                   title="Mentor Based Learning"
                   text="We offer 1 on 1 support from top mentors to help guide you towards a more successful career journey."
                 />

@@ -109,7 +109,7 @@ const index = () => {
               </div>
               <div className="flex h-[20rem] lg:h-[18rem] justify-center items-center flex-grow-[1] flex-shrink-[1] basis-[0%]">
                 <img
-                  src="https://static.rock.so/file/KXnDyMYp/V8lLJao8/7f439cfde95e0ab112059988a96b9a9b/2208_w046_n005_251b_p1_2511.png"
+                  src="https://ik.imagekit.io/internquest/Intern_Quest/hr.svg"
                   loading="lazy"
                   alt=""
                 ></img>
