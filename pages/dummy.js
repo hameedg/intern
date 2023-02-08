@@ -37,24 +37,21 @@ const dummy = () => {
             <li class="">
               <a
                 class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
-                href="#"
-              >
+                href="#">
                 One
               </a>
             </li>
             <li class="">
               <a
                 class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
-                href="#"
-              >
-                Two
+                href="#">
+                Twod
               </a>
             </li>
             <li class="">
               <a
                 class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block "
-                href="#"
-              >
+                href="#">
                 Three is the magic number
               </a>
             </li>
