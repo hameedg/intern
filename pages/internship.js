@@ -166,34 +166,40 @@ const internship = () => {
               </div>
               <div className="sm:grid-cols-[1fr] md:grid-cols-[1fr_1fr] mt-[64px] grid-rows-[auto] grid auto-cols-[1fr] gap-x-[1.8rem] gap-y-[3rem] grid-cols-[1fr_1fr_1fr] ">
                 <Card5
-                  img="https://ik.imagekit.io/internquest/Intern_Quest/2__2_.svg"
+                  img="https://ik.imagekit.io/internquest/Intern_Quest/Live_Sessions.svg"
                   title="Live Sessions"
-                  text="You will experience interactive learning at its best. Our live masterclasses will help you engage and participate to learn more."
+                  text="Our live sessions will help you engage and connect with professionals from leading
+                  tech companies to learn more."
                 />
                 <Card5
-                  img="https://ik.imagekit.io/internquest/Intern_Quest/performance.png"
+                  img="https://ik.imagekit.io/internquest/Intern_Quest/Performance_Learning.svg"
                   title="Performance Learning"
-                  text="Reinforce your learnings after each masterclass by mentor designed hands-on projects and receive guidance on career success."
+                  text="Reinforce your learnings after each assignment/quest with mentor led feedback sessions or
+                  work reviews and receive guidance on the areas you need to improve.
+                  "
                 />
                 <Card5
-                  img="https://ik.imagekit.io/internquest/Intern_Quest/3__2_.svg"
-                  title="Evaluation & Certificates"
-                  text="Get immediate feedback and ratings upon completion of your projects by our leading mentors and get awarded with certificates."
-                />
+                  img="https://ik.imagekit.io/internquest/Intern_Quest/Career_Advancement.svg"
+                  title="Career Advancement"
+                  text="Skill, Reskill and Upskill with real work experience. Learn what you need to get where you
+                  want to and advance in your career"
+                />{" "}
                 <Card5
-                  img="https://ik.imagekit.io/internquest/Intern_Quest/1__2_.svg"
+                  img="https://ik.imagekit.io/internquest/Intern_Quest/Diverse_Community.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1675700738525"
                   title="Diverse Community"
-                  text="You can be a part of our community, as the masterclasses engage in mentor and peer learning creating diversity."
-                />
+                  text="Be a part of our diverse community of talented individuals where you can grow as an
+                  individual, learn new skills and advance your career"
+                />{" "}
                 <Card5
-                  img=""
+                  img="https://ik.imagekit.io/internquest/Intern_Quest/Discover_your_dream_job.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1675700738493"
                   title="Discover Your Dream Job"
-                  text="After project submission, you can kickstart your career by getting hired in world leading organizations."
-                />
+                  text="Get your dream job with the experience of building the startups of tomorrow being a part of them"
+                />{" "}
                 <Card5
-                  img="https://ik.imagekit.io/internquest/Intern_Quest/4__2_.svg"
-                  title="Mentor Based Learning"
-                  text="We offer 1 on 1 support from top mentors to help guide you towards a more successful career journey."
+                  img="https://ik.imagekit.io/internquest/Intern_Quest/Project_based_learning.svg"
+                  title="Project Based Learning"
+                  text="You will experience the experiential learning at its best as you will be working with
+                  startups for real"
                 />
               </div>
             </div>
@@ -209,34 +215,39 @@ const internship = () => {
               </div>
               <div className="sm:grid-cols-[1fr] md:grid-cols-[1fr_1fr] mt-[64px] grid-rows-[auto] grid auto-cols-[1fr] gap-x-[1.8rem] gap-y-[3rem] grid-cols-[1fr_1fr_1fr] ">
                 <Card3
-                  img=""
+                  img="https://ik.imagekit.io/internquest/Intern_Quest/Interview_Preparations.svg"
                   title="Interview Preparations"
-                  text="Improve your interview technique and resume with access to career resources."
+                  text="Discover smart, unique perspectives on Interview Preparation to establish yourself as a top
+                  candidate during the hiring process"
                 />
                 <Card3
-                  img=""
-                  title="Guaranteed Interview"
-                  text="The top 10% will get a guaranteed interview for job opportunities  with industries leading employers."
+                  img="https://ik.imagekit.io/internquest/Intern_Quest/Guaranteed_Interview.svg"
+                  title="Guaranteed Interviews"
+                  text="Best performers will get a guaranteed interview for internships with PPOs from leading tech
+                  companies and startups"
                 />
                 <Card3
-                  img=""
-                  title="Certificate Achievement"
-                  text="Show employers that you have a clear understanding of the core concepts of data analysis."
+                  img="https://ik.imagekit.io/internquest/Intern_Quest/Internship_Completion_Certificate.svg"
+                  title="Internship Completion Certificate"
+                  text="Showcase your proof of work with an experience letter and celebrate your wins along with
+                  internship certificate"
                 />
                 <Card3
-                  img="https://ik.imagekit.io/internquest/Intern_Quest/62f931efb5d6721391dc2af7_emojis-completion02.png"
-                  title="Featured Jobs"
-                  text="Get on the fast track to in-demand jobs in growth hacking and more."
+                  img="https://ik.imagekit.io/internquest/Intern_Quest/Featured_Opportunities.svg"
+                  title="Featured Opportunities"
+                  text="Get on the fast track and apply on the go to exclusive handpicked opportunities
+                  "
                 />
                 <Card3
-                  img="https://ik.imagekit.io/internquest/Intern_Quest/key.png"
+                  img="https://ik.imagekit.io/internquest/Intern_Quest/Exclusive_Community_Access.svg"
                   title="Exclusive Community Access"
-                  text="Access exclusive live sessions, panel discussions and group coaching with mentors and entrepreneurs from around the world."
+                  text="Get exclusive access to interns who interned with industries leading employers, mentors
+                  working at the world's best companies, startup founders and more.."
                 />
                 <Card3
-                  img="https://ik.imagekit.io/internquest/Intern_Quest/book.png"
+                  img="https://ik.imagekit.io/internquest/Intern_Quest/Access_Resources.svg"
                   title="Access Resources"
-                  text="Enhance your learning experience with access to multiple authentic resources."
+                  text="Enhance your learning experience with access to multiple authentic resources"
                 />
               </div>
             </div>
@@ -255,8 +266,33 @@ const internship = () => {
                   </h2>
                 </div>
                 <div className="lg:w-[100%] grid w-[57%] auto-cols-[1fr] auto-rows-max gap-x-0 gap-y-[1rem] grid-cols-[1fr] grid-rows-[max-content]">
-                  <FAQ />
-                  <FAQ />
+                  <FAQ
+                    ques="Who can apply for this internship ?"
+                    mat="Students who completed at least two quests and having relevant skills/interests are eligible to apply
+for this internship."
+                  />
+                  <FAQ
+                    ques="How are interns matched to startups?"
+                    mat="After completing the quests, students are matched to startups based on their ideas of interest and a
+variety of factors including, but not limited to problem solving skills, innovative index, level of product
+ownership etc."
+                  />
+                  <FAQ
+                    ques="Will I receive a certificate upon completion of internship?"
+                    mat="Yes! You will be receiving the internship completion certificate along with an experience letter from the
+                    startup you will be working with"
+                  />
+                  <FAQ
+                    ques="What is the criteria for one to get referrals upon completion?"
+                    mat="Given the fact that our quests and internships are very competitive, the best performers or top 1%
+                    interns can expect to get referrals to leading tech companies and startups"
+                  />
+                  <FAQ
+                    ques="I was rejected, can I be reconsidered or apply again?"
+                    mat="Unfortunately, due to the overwhelming demand from students, we cannot reconsider applications
+                    after they have been rejected. However, we welcome anyone who meets the internship criteria to
+                    reapply for a future internship"
+                  />
                 </div>
               </div>
             </div>
@@ -275,9 +311,13 @@ const internship = () => {
                   </h2>
                   <div className="pt-0 px-0 pb-[2rem]"></div>
                   <p className="text-[1.125rem] leading-[2rem] tracking-[-0.01em]">
-                    Our team of experienced career professionals are available
-                    to help you set a development plan to accelerate your
-                    career. Get in touch!
+                    There's no end to learning but there are endless beginnings.
+                    We bring you an exciting internship opportunity to take your
+                    career to the next level.
+                    <br></br>
+                    <br></br>
+                    Apply today and take the first step towards the career of
+                    your dreams. The time is now⏳
                   </p>
                   <div className="pt-0 px-0 pb-[2rem]"></div>
                   <div className="flex justify-start">
@@ -286,10 +326,9 @@ const internship = () => {
                 </div>
                 <div className="justify-self-end self-center col-start-[span_1] col-end-[span_1] row-start-[span_1] row-end-[span_1]">
                   <img
-                    src="https://global-uploads.webflow.com/632462c7dd8a9721c67948b1/634c71f437a65300b1906170_contact-section-img.webp"
+                    src="https://ik.imagekit.io/internquest/Intern_Quest/Grow_in_the_career_you_want.svg"
                     loading="lazy"
-                    alt=""
-                  ></img>
+                    alt=""></img>
                 </div>
               </div>
               <div className="pt-0 px-0 pb-[6rem]"></div>

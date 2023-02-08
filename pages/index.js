@@ -132,7 +132,7 @@ const index = () => {
 
                 <div className="pt-0 px-0 pb-[2rem]"></div>
               </div>
-              <div className="max-w-[560px] opacity-[1] sm:list-disc col-start-[span_1] col-end-[span_1] row-start-[span_1] row-end-[span_1] p-[1.5rem] rounded-[1rem] bg-[#fff]">
+              <div className="max-w-[570px] opacity-[1] sm:list-disc col-start-[span_1] col-end-[span_1] row-start-[span_1] row-end-[span_1] p-[1.5rem] rounded-[1rem] bg-[#fff]">
                 <Point name={"No work experience?"} />
                 <Point name={"Not getting shortlisted for job interview?"} />
                 <Point name={"Unable to find the role you are looking for?"} />
