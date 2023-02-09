@@ -84,14 +84,26 @@ const Navbar = () => {
                   ></img> */}
                 </div>
                 {drop ? (
-                  <nav className="w-[18rem] p-[0.5rem] absolute left-[0%] top-[144%] right-[0%] bottom-[auto] z-[1000] rounded-[0.5rem] bg-[#0c0c0c]">
+                  <nav className="w-[22rem] p-[0.5rem] absolute left-[0%] top-[144%] right-[0%] bottom-[auto] z-[1000] rounded-[0.5rem] bg-[#0c0c0c]">
                     <div className="grid gap-x-[1rem] grid-cols-1">
-                      <NavCard />
-                      <NavCard />
-                      <NavCard />
-                      <NavCard />
-                      <NavCard />
-                      <NavCard />
+                      <Link href="/internships/frontend-development-internship">
+                        <NavCard name="Frontend Development Internship" />
+                      </Link>
+                      <Link href="/internships/backend-development-internship">
+                        <NavCard name="Backend Development Intenships" />
+                      </Link>
+                      <Link href="/internships/ui-ux-design-internship">
+                        <NavCard name="UI/UX Development Internship" />
+                      </Link>
+                      <Link href="/internships/graphic-design-internship">
+                        <NavCard name="Graphic Design Internship" />
+                      </Link>
+                      <Link href="/internships/content-writing-internship">
+                        <NavCard name="Content Writing Internship" />
+                      </Link>
+                      <Link href="/internships/human-resources-internship">
+                        <NavCard name="Human Resources Internship" />
+                      </Link>
                     </div>
                   </nav>
                 ) : null}
