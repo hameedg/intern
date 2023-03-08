@@ -43,48 +43,37 @@ const index = () => {
             <div className="animate-[marquee_40s_linear_infinite] flex items-center">
               <img
                 className="relative mr-[3rem] flex-grow-0 flex-shrink-0 basis-auto opacity-[0.4] h-[3rem]"
-                src="https://global-uploads.webflow.com/632462c7dd8a9705db7948c2/633b4ce0065bd70d4d4c7589_airbnb.svg"
-              ></img>
+                src="https://global-uploads.webflow.com/632462c7dd8a9705db7948c2/633b4ce0065bd70d4d4c7589_airbnb.svg"></img>
               <img
                 className="relative mr-[3rem] flex-grow-0 flex-shrink-0 basis-auto opacity-[0.4] h-[3rem]"
-                src="https://global-uploads.webflow.com/632462c7dd8a9705db7948c2/633b4ca7f704a3823a2d86fc_netflix.svg"
-              ></img>{" "}
+                src="https://global-uploads.webflow.com/632462c7dd8a9705db7948c2/633b4ca7f704a3823a2d86fc_netflix.svg"></img>{" "}
               <img
                 className="relative mr-[3rem] flex-grow-0 flex-shrink-0 basis-auto opacity-[0.4] h-[3rem]"
-                src="https://global-uploads.webflow.com/632462c7dd8a9705db7948c2/633b4c863f6855096fb71819_meta.svg"
-              ></img>{" "}
+                src="https://global-uploads.webflow.com/632462c7dd8a9705db7948c2/633b4c863f6855096fb71819_meta.svg"></img>{" "}
               <img
                 className="relative mr-[3rem] flex-grow-0 flex-shrink-0 basis-auto opacity-[0.4] h-[3rem]"
-                src="https://global-uploads.webflow.com/632462c7dd8a9705db7948c2/633b4cd668f6c35385fda40b_spotify.svg"
-              ></img>{" "}
+                src="https://global-uploads.webflow.com/632462c7dd8a9705db7948c2/633b4cd668f6c35385fda40b_spotify.svg"></img>{" "}
               <img
                 className="relative mr-[3rem] flex-grow-0 flex-shrink-0 basis-auto opacity-[0.4] h-[3rem]"
-                src="https://global-uploads.webflow.com/632462c7dd8a9705db7948c2/633b4ccb639fb5b7da395f93_amazon.svg"
-              ></img>{" "}
+                src="https://global-uploads.webflow.com/632462c7dd8a9705db7948c2/633b4ccb639fb5b7da395f93_amazon.svg"></img>{" "}
               <img
                 className="relative mr-[3rem] flex-grow-0 flex-shrink-0 basis-auto opacity-[0.4] h-[3rem]"
-                src="https://global-uploads.webflow.com/632462c7dd8a9705db7948c2/633b4cc2e3351f353bbe4c14_oracle.svg"
-              ></img>{" "}
+                src="https://global-uploads.webflow.com/632462c7dd8a9705db7948c2/633b4cc2e3351f353bbe4c14_oracle.svg"></img>{" "}
               <img
                 className="relative mr-[3rem] flex-grow-0 flex-shrink-0 basis-auto opacity-[0.4] h-[3rem]"
-                src="https://global-uploads.webflow.com/632462c7dd8a9705db7948c2/633b4cbbdd6a138a4bca22cb_microsoft.svg"
-              ></img>{" "}
+                src="https://global-uploads.webflow.com/632462c7dd8a9705db7948c2/633b4cbbdd6a138a4bca22cb_microsoft.svg"></img>{" "}
               <img
                 className="relative mr-[3rem] flex-grow-0 flex-shrink-0 basis-auto opacity-[0.4] h-[3rem]"
-                src="https://global-uploads.webflow.com/632462c7dd8a9705db7948c2/633b4cb183f8c0be558447e5_google.svg"
-              ></img>{" "}
+                src="https://global-uploads.webflow.com/632462c7dd8a9705db7948c2/633b4cb183f8c0be558447e5_google.svg"></img>{" "}
               <img
                 className="relative mr-[3rem] flex-grow-0 flex-shrink-0 basis-auto opacity-[0.4] h-[3rem]"
-                src="https://global-uploads.webflow.com/632462c7dd8a9705db7948c2/633b4c9b9e4d531eedbcc004_cisco.svg"
-              ></img>{" "}
+                src="https://global-uploads.webflow.com/632462c7dd8a9705db7948c2/633b4c9b9e4d531eedbcc004_cisco.svg"></img>{" "}
               <img
                 className="relative mr-[3rem] flex-grow-0 flex-shrink-0 basis-auto opacity-[0.4] h-[3rem]"
-                src="https://global-uploads.webflow.com/632462c7dd8a9705db7948c2/633b4c903722a10a912590f3_linkedin.svg"
-              ></img>{" "}
+                src="https://global-uploads.webflow.com/632462c7dd8a9705db7948c2/633b4c903722a10a912590f3_linkedin.svg"></img>{" "}
               <img
                 className="relative mr-[3rem] flex-grow-0 flex-shrink-0 basis-auto opacity-[0.4] h-[3rem]"
-                src="https://global-uploads.webflow.com/632462c7dd8a9705db7948c2/633b4c7d65dbb898805009ac_uber.svg"
-              ></img>{" "}
+                src="https://global-uploads.webflow.com/632462c7dd8a9705db7948c2/633b4c7d65dbb898805009ac_uber.svg"></img>{" "}
             </div>
           </div>
         </div>
@@ -95,24 +84,26 @@ const index = () => {
           <div className="max-w-[72.5rem] mx-auto">
             <div className="md:gap-y-[2rem] py-[4.3rem] flex justify-center items-center md:pt-[6.7rem] md:flex-col lg:pt-[5.8rem] lg:pb-[3rem] ">
               <div className="gl:ml-[50px] max-w-[500px] font-['ClashDisplay-Variable'] leading-[59.04px]  mb-0 flex-shrink-0 flex-grow-0 basis-auto z-[1] flex flex-col items-start lg:static lg:pb-[2.2rem] md:w-auto md:max-w-[none] md:text-center md:items-center">
+                <div className="text-[#000] text-[1.5rem] mb-[1rem] leading-[1.33] font-['ClashDisplay-Variable'] font-[500] flex justify-center items-center">
+                  Showcase your skills with proof-of-work
+                </div>
                 <p className="text-[1rem] mb-8 leading-[1.7] font-inter tracking-[-0.015em]">
-                  There are things that are never taught by colleges and
-                  universities. It only comes with experience. Work Experience
-                  is important for getting into any career.
+                  It's tough to convey your skill, passion, and uniqueness in a
+                  cover letter or resume. A proof of work is the most effective
+                  way to impress companies and begin a conversation with a
+                  company.
                 </p>
 
                 <p className="text-[1rem] mb-8 leading-[1.7] font-inter tracking-[-0.015em]">
-                  No company wants your certificates but every company wants
-                  your experience. Get experience to take the first step for
-                  your dream company.
+                  The most impactful way to communicate your skillset isn't to
+                  tell people what you can do, it's to show them your work.
                 </p>
               </div>
               <div className="flex h-[20rem] lg:h-[18rem] justify-center items-center flex-grow-[1] flex-shrink-[1] basis-[0%]">
                 <img
                   src="https://ik.imagekit.io/internquest/Intern_Quest/hr.svg"
                   loading="lazy"
-                  alt=""
-                ></img>
+                  alt=""></img>
               </div>
             </div>
           </div>
@@ -122,7 +113,7 @@ const index = () => {
       <div className="bg-[#F2F2F2]">
         <div className="section1-wrapper">
           <div className="section1-container">
-            <div className="pt-0 px-0 pb-[2rem]"></div>
+            <div className="pt-0 px-0 pb-[5rem]"></div>
             <div className="md:grid-cols-[1fr] grid auto-cols-[1fr] gap-x-[2rem] gap-y-[2rem] grid-cols-[1fr_1fr] grid-rows-[auto]">
               <div className="gl:ml-[50px] col-start-[span_1] col-end-[span_1] row-start-[span_1] row-end-[span_1] flex items-center max-w-[500px]">
                 <h2 className="font-['ClashDisplay-Variable'] font-[600] text-[2rem] leading-[39px] sm:text-[1.5rem] sm:leading-[1.5] sm:font-[500]">
@@ -132,7 +123,7 @@ const index = () => {
 
                 <div className="pt-0 px-0 pb-[2rem]"></div>
               </div>
-              <div className="max-w-[570px] opacity-[1] sm:list-disc col-start-[span_1] col-end-[span_1] row-start-[span_1] row-end-[span_1] p-[1.5rem] rounded-[1rem] bg-[#fff]">
+              <div className=" dm:w-[600px] opacity-[1] sm:list-disc col-start-[span_1] col-end-[span_1] row-start-[span_1] row-end-[span_1] p-[1.5rem] rounded-[1rem] bg-[#fff]">
                 <Point name={"No work experience?"} />
                 <Point name={"Not getting shortlisted for job interview?"} />
                 <Point name={"Unable to find the role you are looking for?"} />
@@ -148,32 +139,29 @@ const index = () => {
                 />
               </div>
             </div>
-            <div className="pt-0 px-0 pb-[6rem]"></div>
+            <div className="pt-0 px-0 pb-[5rem]"></div>
           </div>
         </div>
       </div>
       <div className="max-w-[617px] mx-auto bg-white pb-12 mt-16 ma  ">
         <h3
-          className={`sm:text-[1.5rem] sm:leading-[1.5] sm:font-[500] font-['ClashDisplay-Variable'] text-[1.875rem] sm-mid-tablet:leading-snug antialiased tracking-[0] text-center font-[550] mb-6`}
-        >
-          A new way to get work experience
+          className={`sm:text-[1.5rem] sm:leading-[1.5] sm:font-[500] font-['ClashDisplay-Variable'] text-[1.875rem] sm-mid-tablet:leading-snug antialiased tracking-[0] text-center font-[550] mb-6`}>
+          A new way to get best internship oppurtunities
         </h3>
         <p className="text-[1rem] mb-8 leading-[1.7] text-center font-inter tracking-[-0.015em]">
-          Hirable works with leading tech companies and emerging startups to
-          come up with innovative solutions which can transform the future of
-          learning and help students gain work experience by directly working
-          with companies
+          BrightIntern is building a platform where students can learn and
+          unleash their potential with us through virtual internships to get
+          best internship opportunities and referrals to dream internships
         </p>
       </div>
 
-      <div className="bg-[#1b1b1b]">
+      {/* <div className="bg-[#1b1b1b]">
         <div className="page-padding">
           <div className="max-w-[1000px] mx-auto">
             <div className="p-large"></div>
             <div className="text-center">
               <h3
-                className={`font-['ClashDisplay-Variable'] text-[#ffff] text-[30px] sm-mid-tablet:leading-snug antialiased text-center font-[600] mb-6`}
-              >
+                className={`font-['ClashDisplay-Variable'] text-[#ffff] text-[30px] sm-mid-tablet:leading-snug antialiased text-center font-[600] mb-6`}>
                 Steps to kick-start your
                 <br></br>
                 growth journey
@@ -228,7 +216,7 @@ const index = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="bg-[#fff] text-[#000]">
         <div className="pt-[5rem] pb-[5rem] relative flex w-[90%] max-w-[1160px] mx-auto justify-center items-center md:pt-[60px] md:pb-[120px] sm:w-[90%] lg:flex-col">
