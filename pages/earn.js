@@ -1,6 +1,7 @@
 import Typewriter from "typewriter-effect";
 import Navbar from "../components/Navbar";
 import CountUp from "react-countup";
+import Tr from "../components/New components/Tr";
 
 const earn = () => {
   return (
@@ -46,26 +47,90 @@ const earn = () => {
           </div>
         </div>
         <div className="overflow-hidden relative px-[3%] box-border lg:px-[5%] maybe">
-          <div className="flex pt-[10rem] pb-[4.8rem] flex-col items-center w-[100%] max-w-[128rem] mx-auto lg:pt-[8.4rem] lg:max-w-[64rem] md:pt-[4.4rem] md:pb-[3.6rem] sm:pb-[3.2rem]">
-            <div className="text-[1.5rem] leading-[1.2] font-[500] lg:text-[1.6rem] ">
-              Since 2021
+          <div className="flex pt-[5rem] pb-[4.8rem] flex-col items-center w-[100%] max-w-[128rem] mx-auto lg:pt-[8.4rem] lg:max-w-[64rem] md:pt-[4.4rem] md:pb-[3.6rem] sm:pb-[3.2rem]">
+            <div className="text-[1.5rem] font-['ClashDisplay-Variable'] leading-[1.2] font-[500] lg:text-[1.6rem] ">
+              Since January 2023
             </div>
-            <div className="mt-[2.4rem] mb-[4.8rem] text-[19rem] leading-[1] font-[300] lg:mb-[2.8rem] lg:text-[10rem] md:text-[11.4vw] sm:text-[14vw]">
-              $
+            <div className="mt-[2.4rem] font-['ClashDisplay-Variable'] mb-[4.8rem] text-[10rem] leading-[1] font-[300] lg:mb-[2.8rem] lg:text-[10rem] md:text-[11.4vw] sm:text-[14vw]">
+              BRI&nbsp;
               <span>
-                <CountUp end={2368249} duration={1} />
+                <CountUp end={112500} duration={1} />
               </span>
             </div>
-            <p className="w-[100%] max-w-[89rem] text-[2.4rem] text-center mb-0 leading-[1.7] mt-0 lg:leading-[1.5] md:text-[2rem] ">
-              We’ve paid out over two million dollars to our communities, and
-              they’ve helped over <strong>10,000</strong>&nbsp; people get
-              referred to leading companies.
+            <p className="w-[100%] max-w-[720px] text-[1.125rem] tracking-[-0.015em] font-inter text-center mb-0 leading-[2rem] mt-0 lg:leading-[1.5] md:text-[2rem] ">
+              We've paid out over 100k BRI Tokens to interns and BrightIntern
+              has helped over 100+ students get rewarded for completing virtual
+              internship missions
             </p>
           </div>
-          <div className="flex flex-col items-center gap-y-[10rem] w-[100%] max-w-[128rem] mx-auto md:gap-y-[4.8rem]">
-            <a className="px-[6.4rem] pt-[2.4rem] pb-[2.6rem] rounded-[999px] bg-[#150f04] text-[#fff] text-[2rem] leading-[1.2] text-center max-w-[100%] inline-block hover:bg-[#deb566] transition-all md:px-[2.4rem] md:py-[2rem] sm:w-[100%] md:justify-center md:items-center md:text-[1.6rem] duration-[0.7s]">
-              <div>Get your community onboarded</div>
-            </a>
+        </div>
+        <div className="page-padding ">
+          <div className="max-w-[72.5rem] mx-auto pt-[2rem]">
+            <div className="box-border ">
+              <div className="w-[100%] px-[16px] mx-auto 3xl:max-w-[1402px]">
+                <div className="flex pt-[48px] md:flex-col md:pt-[20px] ">
+                  <div className="w-[100%] flex-grow">
+                    <div className="relative ">
+                      <h1 className="text-[2em] my-[0.67em] font-bold">
+                        CoinMarketCap Diamonds Leaderboard
+                      </h1>
+                      <p className="mb-[32px] leading-[1.5] text-[14px] lg:overflow-hidden">
+                        Highest accumulated CoinMarketCap Diamonds rankings.
+                        <div className="float-right lg:mt-[16px] lg:float-left lg:w-[100%]">
+                          Last update: Since January 2023 15:30
+                        </div>
+                      </p>
+                      <div className="sm:overflow-x-scroll ">
+                        <table className="m-auto text-[14px] w-[100%]">
+                          <thead className="sticky z-[120]">
+                            <tr>
+                              <th className="text-left border-t border-b sticky top-0 border-solid border-[#eff2f5] bg-[#fff] py-[11px] px-[10px] z-[90] text-[12px] ">
+                                Rank
+                              </th>
+                              <th className="text-left border-t border-b sticky top-0 border-solid border-[#eff2f5] bg-[#fff] py-[11px] px-[10px] z-[90] text-[12px] ">
+                                User
+                              </th>
+                              <th className="text-right border-t border-b sticky top-0 border-solid border-[#eff2f5] bg-[#fff] py-[11px] px-[10px] z-[90] text-[12px] ">
+                                Accumulated Diamonds Balance
+                              </th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <Tr no="1" />
+                            </tr>
+                            <tr>
+                              <Tr no="2" />
+                            </tr>
+                            <tr>
+                              <Tr no="3" />
+                            </tr>
+                            <tr>
+                              <Tr no="4" />
+                            </tr>
+                            <tr>
+                              <Tr no="5" />
+                            </tr>
+                            <tr>
+                              <Tr no="6" />
+                            </tr>
+                            <tr>
+                              <Tr no="7" />
+                            </tr>
+                            <tr>
+                              <Tr no="8" />
+                            </tr>
+                            <tr>
+                              <Tr no="9" />
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
