@@ -60,7 +60,7 @@ const earn = () => {
             <p className="w-[100%] max-w-[720px] text-[1.125rem] tracking-[-0.015em] font-inter text-center mb-0 leading-[2rem] mt-0 lg:leading-[1.5] md:text-[2rem] ">
               We've paid out over 100k BRI Tokens to interns and BrightIntern
               has helped over 100+ students get rewarded for completing virtual
-              internship missions
+              internship missionss
             </p>
           </div>
         </div>
