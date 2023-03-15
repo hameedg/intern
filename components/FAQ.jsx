@@ -43,7 +43,7 @@ const FAQ = (props) => {
         }>
         <div className="h-[1rem]"></div>
         <div className=""></div>
-        <p className="text-[0.9375rem] leading-[1.75rem] tracking-[-0.015em]">
+        <p className="text-[0.9375rem] leading-[1.75rem] tracking-[-0.015em] font-inter">
           {" "}
           {props.mat}
         </p>

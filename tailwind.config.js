@@ -6,6 +6,8 @@ module.exports = {
   ],
   theme: {
     screens: {
+      "2xl": { max: "1280px" },
+
       xl: { max: "1023px" },
 
       lg: { max: "991px" },

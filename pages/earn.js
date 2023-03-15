@@ -54,13 +54,13 @@ const earn = () => {
             <div className="mt-[2.4rem] font-['ClashDisplay-Variable'] mb-[4.8rem] text-[10rem] leading-[1] font-[300] lg:mb-[2.8rem] lg:text-[10rem] md:text-[11.4vw] sm:text-[14vw]">
               BRI&nbsp;
               <span>
-                <CountUp end={112500} duration={1} />
+                <CountUp end={112500} duration={5} />
               </span>
             </div>
             <p className="w-[100%] max-w-[720px] text-[1.125rem] tracking-[-0.015em] font-inter text-center mb-0 leading-[2rem] mt-0 lg:leading-[1.5] md:text-[2rem] ">
               We've paid out over 100k BRI Tokens to interns and BrightIntern
               has helped over 100+ students get rewarded for completing virtual
-              internship missionss
+              internship missions
             </p>
           </div>
         </div>
@@ -74,12 +74,12 @@ const earn = () => {
                       <h1 className="text-[2em] my-[0.67em] font-bold">
                         CoinMarketCap Diamonds Leaderboard
                       </h1>
-                      <p className="mb-[32px] leading-[1.5] text-[14px] lg:overflow-hidden">
+                      <div className="mb-[32px] leading-[1.5] text-[14px] lg:overflow-hidden">
                         Highest accumulated CoinMarketCap Diamonds rankings.
                         <div className="float-right lg:mt-[16px] lg:float-left lg:w-[100%]">
                           Last update: Since January 2023 15:30
                         </div>
-                      </p>
+                      </div>
                       <div className="sm:overflow-x-scroll ">
                         <table className="m-auto text-[14px] w-[100%]">
                           <thead className="sticky z-[120]">
