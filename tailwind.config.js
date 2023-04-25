@@ -23,8 +23,7 @@ module.exports = {
     },
     fontFamily: {
       inter: ["Inter", "sans-serif"],
-
-      archivo: ["Archivo", "sans-serif"],
+      lico: ["Licorice", "cursive"],
     },
     extend: {
       visibility: ["group-hover"],

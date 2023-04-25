@@ -1,0 +1,15 @@
+/* @font-face {
+    font-family:'wonderful' ;
+    src: url("../public/assets/WonderfulBrandingPersonalUse-Wyrgz.ttf") format('truetype');
+}
+
+.wonder{
+    font-family: 'wonderful';
+} */
+@font-face {
+    font-family: 'DrukWide';
+    src: url('../Fonts/WonderfulBrandingPersonalUse-Wyrgz.ttf') format('truetype');
+}
+.druk{
+    font-family: 'DrukWide';
+}
