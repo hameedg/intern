@@ -120,7 +120,7 @@ const students = () => {
       <div className="bg-[#ffff] text-[#000] mb-[60px]">
         <div className="page-padding ">
           <div className="max-w-[80rem] mx-auto bg-white">
-            <div className="text-[7rem] font-[600] font-['ClashDisplay-Variable'] flex items-center justify-center text-[#dfdfe4]">
+            <div className="text-[7rem] sm:text-[2.45rem] md:text-[3.5rem] font-[600] font-['ClashDisplay-Variable'] flex items-center justify-center text-[#dfdfe4]">
               Be a brightintern
             </div>
           </div>
